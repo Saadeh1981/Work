@@ -1,0 +1,43 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Local env
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Environment & secrets
+.env
+
+# Local test data
+inputs/
+out/
+
+# Build artifacts
+*.zip
+
+asbuilt_result.json
+

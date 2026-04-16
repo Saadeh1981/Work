@@ -1,0 +1,4 @@
+ac_kw,dc_kw,meta__extraction_meta,meta_ac_capacity_mw,meta_ac_kw,meta_inverter_models,meta_module_count,meta_module_models,meta_plant_name,meta_plant_name_candidates,meta_plant_name_confidence,meta_plant_type,meta_title_block,plant_id,plant_name,plant_type
+678040.0,,{},678.04,678040.0,[],465,[],OBERON I & II SOLAR,"[{'text': 'OBERON I & II SOLAR', 'score': 2.1, 'evidence': {'page': 1, 'source_type': 'document_intelligence', 'snippet': 'OBERON I & II SOLAR'}}, {'text': 'RIVERSIDE COUNTY, CA', 'score': 2.1, 'evidence': {'page': 1, 'source_type': 'document_intelligence', 'snippet': 'RIVERSIDE COUNTY, CA'}}, {'text': 'COLORADO RIVER', 'score': 2.1, 'evidence': {'page': 1, 'source_type': 'document_intelligence', 'snippet': 'COLORADO RIVER'}}]",0.9,solar,"OBERON I & II SOLAR
+RIVERSIDE COUNTY, CA
+COLORADO RIVER",plant_0,OBERON I & II SOLAR,solar

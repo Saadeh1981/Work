@@ -1,0 +1,22 @@
+{
+  "header_mapping": {
+    "Platform Name": "plant_name",
+    "Project Name": "plant_name"
+  },
+  "model_alias": {
+    "CS6X-305": "Canadian Solar CS6X 305",
+    "CS3W-450": "Canadian Solar CS3W 450"
+  },
+  "unit_override": {
+    "MWdc": "MW",
+    "kWp": "kWdc"
+  },
+  "vendor_term": {
+    "Can. Solar": "Canadian Solar",
+    "SMA America": "SMA"
+  },
+  "regex_override": {
+    "plant_capacity_dc": "(\\d+(?:\\.\\d+)?)\\s*(kWdc|MWdc|kW|MW)",
+    "module_count": "(\\\\d+)\\\\s*(modules|panels)"
+  }
+}

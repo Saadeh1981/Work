@@ -1,0 +1,19 @@
+{
+  "fields": [
+    {
+      "name": "ProjectName->PlantName",
+      "pattern": "(?i)PROJECT NAME\\s*[:\\-]\\s*(.+)",
+      "target_column": "PlantName"
+    },
+    {
+      "name": "InverterModelToken",
+      "pattern": "(?i)\\b(AE[_\\- ]?3TL[-_ ]?\\d{2}[_\\- ]?\\d{2}|AE\\s+SOLARON\\s+\\d{3}|SMA\\s+SB\\s*\\d{3,5})\\b",
+      "target_column": "inverter_models"
+    },
+    {
+      "name": "ModuleModelToken",
+      "pattern": "(?i)\\b(CS\\d[A-Z0-9\\-]*\\-\\d{3}P|TSM\\-\\d{3}[A-Z0-9\\-]*|STP\\d{3}[A-Z0-9\\-/]*)\\b",
+      "target_column": "module_models"
+    }
+  ]
+}

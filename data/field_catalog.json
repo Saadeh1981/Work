@@ -1,0 +1,59 @@
+{
+  "version": "1.0",
+  "site_fields": [
+    {
+      "key": "PlantName",
+      "label": "Plant Name",
+      "kind": "string"
+    },
+    {
+      "key": "AC_Capacity_kW",
+      "label": "AC Capacity (kW)",
+      "kind": "number"
+    },
+    {
+      "key": "DC_Capacity_kW",
+      "label": "DC Capacity (kW)",
+      "kind": "number"
+    },
+    {
+      "key": "ModuleCount",
+      "label": "Module Count",
+      "kind": "number"
+    },
+    {
+      "key": "ModuleModel",
+      "label": "Module Model",
+      "kind": "string"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Inverters",
+      "label": "Inverters",
+      "max_items": 20,
+      "fields": [
+        {
+          "key": "PlatformName",
+          "label": "Platform Name",
+          "kind": "string"
+        },
+        {
+          "key": "Model",
+          "label": "Model",
+          "kind": "string"
+        },
+        {
+          "key": "Manufacturer",
+          "label": "Manufacturer",
+          "kind": "string"
+        },
+        {
+          "key": "AC_Capacity_kW",
+          "label": "AC Capacity",
+          "kind": "number"
+        }
+      ]
+    }
+  ]
+}

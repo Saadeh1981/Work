@@ -1,0 +1,141 @@
+version: 0.1
+equipment_buckets:
+  title:
+    keywords: ["Project","Plant","Site","Title","Owner","EPC"]
+    neighbor_pages: 1
+
+  inverter:
+    keywords: ["Inverter","PCS","Central Inverter","String Inverter","SMA","Sungrow","Huawei","ABB","FIMER","Power Electronics","AE","Solis","SMA Sunny"]
+    neighbor_pages: 1
+    fields:
+      - name: model
+        kind: "string"
+        regex: ["(?i)inverter\\s*(model|type)\\s*[:\\-]\\s*([A-Z0-9\\-\\./]+)","(?i)\\b([A-Z]{2,}[A-Z0-9\\-/\\.]{3,})\\b(?=.*\\binverter\\b)"]
+        take: "group:2?|1"
+      - name: qty
+        kind: "int"
+        regex: ["(?i)(\\d+)\\s*x\\s*[A-Z0-9\\-\\./]+\\s*(?:inverter)?","(?i)quantity\\s*[:=]\\s*(\\d+)"]
+        take: "group:1"
+      - name: ac_kw
+        kind: "number"
+        regex: ["(?i)(\\d+(?:[\\.,]\\d+)?)\\s*kW\\s*ac","(?i)ac\\s*(?:rating|capacity)\\s*[:=]\\s*(\\d+(?:[\\.,]\\d+)?)\\s*kW"]
+        take: "group:1"
+        normalize: { unit: "kW" }
+      - name: dc_kw
+        kind: "number"
+        regex: ["(?i)(\\d+(?:[\\.,]\\d+)?)\\s*kW\\s*dc","(?i)dc\\s*(?:rating|capacity)\\s*[:=]\\s*(\\d+(?:[\\.,]\\d+)?)\\s*kW"]
+        take: "group:1"
+        normalize: { unit: "kW" }
+      - name: mppt
+        kind: "int"
+        regex: ["(?i)MPPT\\s*(?:count|channels)?\\s*[:=]\\s*(\\d+)"]
+        take: "group:1"
+
+  module:
+    keywords: ["Module","PV module","PV-Module","Panel","JA Solar","JINKO","Trina","Canadian Solar","Hanwha","Q.CELLS","Longi","Risen"]
+    neighbor_pages: 1
+    fields:
+      - name: model
+        kind: "string"
+        regex: ["(?i)module\\s*(model|type)\\s*[:\\-]\\s*([A-Z0-9\\-()\\./]+)","(?i)\\b([A-Z]{2,}[A-Z0-9\\-/()\\.]{3,})\\b(?=.*\\bmodule\\b)"]
+        take: "group:2?|1"
+      - name: qty
+        kind: "int"
+        regex: ["(?i)(\\d+)\\s*x\\s*[A-Z0-9\\-()\\./]+\\s*(?:module)?","(?i)modules?\\s*(?:count|qty|quantity)?\\s*[:=]\\s*(\\d+)"]
+        take: "group:1"
+      - name: stc_w
+        kind: "int"
+        regex: ["(?i)(\\d{3,4})\\s*W\\s*(?:STC)?","(?i)STC\\s*(?:power|rating)\\s*[:=]\\s*(\\d{3,4})\\s*W"]
+        take: "group:1"
+      - name: tilt_deg
+        kind: "number"
+        regex: ["(?i)tilt\\s*[:=]\\s*(\\d+(?:\\.\\d+)?)\\s*(?:deg|°)"]
+        take: "group:1"
+      - name: az_deg
+        kind: "number"
+        regex: ["(?i)azimuth\\s*[:=]\\s*(\\d+(?:\\.\\d+)?)\\s*(?:deg|°)"]
+        take: "group:1"
+      - name: mount
+        kind: "enum"
+        regex: ["(?i)\\b(single|dual)\\-?axis\\s*tracker\\b","(?i)\\bfixed\\s*tilt\\b"]
+        map:
+          "(?i)(single|dual).*tracker": "tracker"
+          "(?i)fixed\\s*tilt": "fixed"
+
+  met:
+    keywords: ["Met","Meteorological","Weather","POA","GHI","Pyranometer","Anemometer","Ambient","Backsheet","WS","WD","Wind speed","Wind direction","Thermometer"]
+    neighbor_pages: 1
+    fields:
+      - name: sensor
+        kind: "repeat"
+        schema:
+          - name: type
+            kind: "enum"
+            regex: ["(?i)\\b(POA|GHI|Ambient|Backsheet|WS|WD|Wind\\s*Speed|Wind\\s*Direction|Module\\s*Temp|Irradiance)\\b"]
+            take: "group:1"
+          - name: height_m
+            kind: "number"
+            regex: ["(?i)height\\s*[:=]\\s*(\\d+(?:\\.\\d+)?)\\s*m"]
+            take: "group:1"
+          - name: model
+            kind: "string"
+            regex: ["(?i)(Kipp\\s*&\\s*Zonen|Hukseflux|Apogee|Vaisala|NRG|Thies)[^\\n]{0,40}"]
+            take: "full"
+          - name: sn
+            kind: "string"
+            regex: ["(?i)S/?N\\s*[:=]\\s*([A-Z0-9\\-]+)"]
+            take: "group:1"
+
+  substation:
+    keywords: ["Substation","Switchgear","Revenue Meter","PCC","POI","CT","PT","Breaker","Transformer","MVA","kV","kVA"]
+    neighbor_pages: 1
+    fields:
+      - name: revenue_meter_id
+        kind: "string"
+        regex: ["(?i)revenue\\s*meter.*?(?:ID|No\\.|#)\\s*[:=]\\s*([A-Z0-9\\-]+)"]
+        take: "group:1"
+      - name: ct_ratio
+        kind: "string"
+        regex: ["(?i)CT\\s*Ratio\\s*[:=]\\s*([0-9:]+)"]
+        take: "group:1"
+      - name: pt_ratio
+        kind: "string"
+        regex: ["(?i)PT\\s*Ratio\\s*[:=]\\s*([0-9:]+)"]
+        take: "group:1"
+      - name: poi_ac_mw
+        kind: "number"
+        regex: ["(?i)(POI|PCC|Point of Interconnection|AC\\s*Capacity|Nameplate\\s*AC|Max\\s*AC)[^\\n]{0,40}?(\\d+(?:[\\.,]\\d+)?)\\s*(MW|kW|MVA|kVA)"]
+        take: "group:2,3"
+        normalize: { to: "MW" }
+      - name: transformer
+        kind: "repeat"
+        schema:
+          - name: rating_mva
+            kind: "number"
+            regex: ["(?i)(\\d+(?:\\.\\d+)?)\\s*MVA"]
+            take: "group:1"
+          - name: pri_kv
+            kind: "number"
+            regex: ["(?i)(\\d+(?:\\.\\d+)?)\\s*kV\\s*(?:pri|primary)"]
+            take: "group:1"
+          - name: sec_kv
+            kind: "number"
+            regex: ["(?i)(\\d+(?:\\.\\d+)?)\\s*kV\\s*(?:sec|secondary)"]
+            take: "group:1"
+
+plant_level:
+  fields:
+    - name: plant_name
+      kind: "string"
+      regex: ["(?i)(Project|Plant|Site)\\s*(Name|Title)?\\s*[:\\-]\\s*([^\\n]{3,60})"]
+      take: "group:3"
+    - name: dc_capacity_mw
+      kind: "number"
+      regex: ["(?i)(DC\\s*(System\\s*)?Rating|Total\\s*DC|STC)[^\\n]{0,40}?(\\d+(?:[\\.,]\\d+)?)\\s*(MW|kW)"]
+      take: "group:2,3"
+      normalize: { to: "MW" }
+
+postprocess:
+  dedupe_prefer: ["tables_over_text", "largest_poi_ac", "most_frequent_model"]
+  evidence: true
+  include_missing: true

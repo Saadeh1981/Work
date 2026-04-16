@@ -1,0 +1,143 @@
+{
+  "version": "1.0",
+  "site_fields": [
+    {"key": "CustomerName", "label": "Customer Name", "kind": "string"},
+    {"key": "PlantName", "label": "Plant Name", "kind": "string"},
+    {"key": "Country", "label": "Country", "kind": "string"},
+    {"key": "AC_Capacity_kW", "label": "AC Capacity (kW)", "kind": "number", "units": "kW"},
+    {"key": "DC_Capacity_kW", "label": "DC Capacity (kW)", "kind": "number", "units": "kW"},
+    {"key": "ExportLimit_kW", "label": "Active Power Export Limit (kW)", "kind": "number", "units": "kW"},
+    {"key": "Latitude", "label": "Latitude (WGS84)", "kind": "number"},
+    {"key": "Longitude", "label": "Longitude (WGS84)", "kind": "number"},
+    {"key": "Address", "label": "Address", "kind": "string"},
+    {"key": "Elevation_m", "label": "Elevation (m)", "kind": "number", "units": "m"},
+    {"key": "CommissioningDate", "label": "Commissioning date (yyyy-mm-dd)", "kind": "date"},
+    {"key": "SiteTimeZone", "label": "Site time zone (UTC)", "kind": "string"},
+    {"key": "DataStartTimeUTC", "label": "Data start time (UTC) yyyy-mm-dd", "kind": "date"},
+    {"key": "RealTimeDataConnection", "label": "Real Time Data Connection", "kind": "string"},
+    {"key": "AggregatedDataConnection", "label": "Aggregated Data Connection", "kind": "string"},
+    {"key": "WeatherStationReference", "label": "Weather Station reference", "kind": "string"}
+  ],
+  "groups": [
+    {
+      "name": "PlaneOfArray",
+      "label": "Plane of Array",
+      "max_items": 50,
+      "fields": [
+        {"key": "Bifacial", "label": "Bifacial Array (Yes/No)", "kind": "bool"},
+        {"key": "MountingType", "label": "Mounting Type", "kind": "enum", "enum": ["Fixed tilt","HSAT","VSAT","Two axis"]},
+        {"key": "BacktrackEnabled", "label": "Backtrack enabled (Yes/No)", "kind": "bool"},
+        {"key": "MaxTrackerAngle_deg", "label": "Max Tracker Angle", "kind": "number", "units": "deg"},
+        {"key": "Azimuth_deg", "label": "Mounting Azimuth Angle", "kind": "number", "units": "deg"},
+        {"key": "GCR", "label": "Mounting GCR Coefficient", "kind": "number"},
+        {"key": "Tilt_deg", "label": "Mounting Tilt Angle", "kind": "number", "units": "deg"},
+        {"key": "StowAngle_deg", "label": "Stow Angle", "kind": "number", "units": "deg"}
+      ]
+    },
+    {
+      "name": "Inverters",
+      "label": "Inverter",
+      "max_items": 500,
+      "fields": [
+        {"key": "PlatformName", "label": "Platform Name", "kind": "string"},
+        {"key": "CMMSMappingName", "label": "CMMS - Mapping Name", "kind": "string"},
+        {"key": "AC_Capacity_kW", "label": "AC Capacity (kW)", "kind": "number", "units": "kW"},
+        {"key": "DC_Capacity_kW", "label": "DC Capacity (kW)", "kind": "number", "units": "kW"},
+        {"key": "Manufacturer", "label": "Manufacturer", "kind": "string"},
+        {"key": "Model", "label": "Model", "kind": "string"},
+        {"key": "AvailabilityIrrThreshold", "label": "Availability Irradiance Threshold", "kind": "number"},
+        {"key": "Elevation_m", "label": "Elevation (m)", "kind": "number", "units": "m"},
+        {"key": "SerialNumber", "label": "Serial number", "kind": "string"},
+        {"key": "Latitude", "label": "Latitude (WGS84)", "kind": "number"},
+        {"key": "Longitude", "label": "Longitude (WGS84)", "kind": "number"},
+        {"key": "GroupParent", "label": "Inverter Group Parent", "kind": "string"},
+        {"key": "PlaneOfArrayRef", "label": "Plane of Array reference", "kind": "string"}
+      ]
+    },
+    {
+      "name": "PrimaryMeters",
+      "label": "Primary Meters",
+      "max_items": 50,
+      "fields": [
+        {"key": "PlatformName", "label": "Platform Name", "kind": "string"},
+        {"key": "AC_Capacity_kW", "label": "AC Capacity (kW)", "kind": "number", "units": "kW"},
+        {"key": "Manufacturer", "label": "Manufacturer", "kind": "string"},
+        {"key": "Model", "label": "Model", "kind": "string"},
+        {"key": "SerialNumber", "label": "Serial Number", "kind": "string"},
+        {"key": "MeterType", "label": "Meter Type (Primary)", "kind": "enum", "enum": ["Primary"]}
+      ]
+    },
+    {
+      "name": "WeatherStations",
+      "label": "Weather Stations",
+      "max_items": 50,
+      "fields": [
+        {"key": "PlatformName", "label": "Platform Name", "kind": "string"},
+        {"key": "Elevation_m", "label": "Elevation (m)", "kind": "number", "units": "m"},
+        {"key": "Manufacturer", "label": "Manufacturer", "kind": "string"},
+        {"key": "Model", "label": "Model", "kind": "string"},
+        {"key": "SerialNumber", "label": "Serial Number", "kind": "string"},
+        {"key": "Latitude", "label": "Latitude (WGS84)", "kind": "number"},
+        {"key": "Longitude", "label": "Longitude (WGS84)", "kind": "number"},
+        {"key": "StationType", "label": "Type (Primary/Secondary/Tertiary)", "kind": "enum", "enum": ["Primary","Secondary","Tertiary"]},
+        {"key": "PlaneOfArrayRef", "label": "Plane of Array reference", "kind": "string"}
+      ]
+    },
+    {
+      "name": "OtherMeters",
+      "label": "Other Meters",
+      "max_items": 100,
+      "fields": [
+        {"key": "PlatformName", "label": "Platform Name", "kind": "string"},
+        {"key": "AC_Capacity_kW", "label": "AC Capacity (kW)", "kind": "number", "units": "kW"},
+        {"key": "SerialNumber", "label": "Serial Number", "kind": "string"},
+        {"key": "Manufacturer", "label": "Manufacturer", "kind": "string"},
+        {"key": "Model", "label": "Model", "kind": "string"},
+        {"key": "MeterType", "label": "Meter Type", "kind": "enum", "enum": ["Secondary","Backup","Check","Feeder"]}
+      ]
+    },
+    {
+      "name": "OtherSiteEquipment",
+      "label": "Other Site Equipment",
+      "max_items": 500,
+      "fields": [
+        {"key": "UnityPlatformTitle", "label": "Unity Platform Title", "kind": "string"},
+        {"key": "ManufacturerModel", "label": "Manufacturer and Model", "kind": "string"},
+        {"key": "ParentGroup", "label": "Parent Group", "kind": "string"},
+        {"key": "CMMSMappingName", "label": "CMMS - Mapping Name", "kind": "string"}
+      ]
+    },
+    {
+      "name": "Combiners",
+      "label": "Combiners",
+      "max_items": 2000,
+      "fields": [
+        {"key": "PlatformName", "label": "Platform Name", "kind": "string"}
+      ]
+    },
+    {
+      "name": "Trackers",
+      "label": "Trackers",
+      "max_items": 5000,
+      "fields": [
+        {"key": "PlatformName", "label": "Platform Name", "kind": "string"}
+      ]
+    },
+    {
+      "name": "Transformers",
+      "label": "Transformers",
+      "max_items": 100,
+      "fields": [
+        {"key": "PlatformName", "label": "Platform Name", "kind": "string"}
+      ]
+    },
+    {
+      "name": "Meters",
+      "label": "Meters",
+      "max_items": 100,
+      "fields": [
+        {"key": "PlatformName", "label": "Platform Name", "kind": "string"}
+      ]
+    }
+  ]
+}

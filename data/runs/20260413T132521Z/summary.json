@@ -1,0 +1,5386 @@
+{
+  "files": [
+    {
+      "file_id": null,
+      "file_name": "Image-2021-07-08 23_00_01.png",
+      "file_type": "image",
+      "path": "data\\runs\\20260413T132521Z\\expanded_inputs\\OneDrive_2026-04-11\\3037.02.002 - Sumrall (MS3)\\CombinerMapping\\Image-2021-07-08 23_00_01.png",
+      "page_count": 1,
+      "sheet_count": null,
+      "text_layer_present": false,
+      "scan_likelihood": 1.0,
+      "likely_contents": [],
+      "sections": [],
+      "recommended_actions": [
+        "ocr_image"
+      ],
+      "warnings": [],
+      "domains": [],
+      "content_types": [],
+      "entities": [],
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "file_id": null,
+      "file_name": "Image-2021-07-08 23_17_40.png",
+      "file_type": "image",
+      "path": "data\\runs\\20260413T132521Z\\expanded_inputs\\OneDrive_2026-04-11\\3037.02.002 - Sumrall (MS3)\\CombinerMapping\\Image-2021-07-08 23_17_40.png",
+      "page_count": 1,
+      "sheet_count": null,
+      "text_layer_present": false,
+      "scan_likelihood": 1.0,
+      "likely_contents": [],
+      "sections": [],
+      "recommended_actions": [
+        "ocr_image"
+      ],
+      "warnings": [
+        "Low resolution image, OCR quality risk"
+      ],
+      "domains": [],
+      "content_types": [],
+      "entities": [],
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "file_id": null,
+      "file_name": "Image-2021-06-07 16_58_08.png",
+      "file_type": "image",
+      "path": "data\\runs\\20260413T132521Z\\expanded_inputs\\OneDrive_2026-04-11\\3037.02.002 - Sumrall (MS3)\\CombinerMapping\\Image-2021-06-07 16_58_08.png",
+      "page_count": 1,
+      "sheet_count": null,
+      "text_layer_present": false,
+      "scan_likelihood": 1.0,
+      "likely_contents": [],
+      "sections": [],
+      "recommended_actions": [
+        "ocr_image"
+      ],
+      "warnings": [
+        "Low resolution image, OCR quality risk"
+      ],
+      "domains": [],
+      "content_types": [],
+      "entities": [],
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "file_id": null,
+      "file_name": "User Manual_SC1850-US, SC2200-US, 2500-EV-US-BA-A1-en-V20.pdf",
+      "file_type": "pdf",
+      "path": "data\\runs\\20260413T132521Z\\expanded_inputs\\OneDrive_2026-04-11\\3037.02.002 - Sumrall (MS3)\\User Manual_SC1850-US, SC2200-US, 2500-EV-US-BA-A1-en-V20.pdf",
+      "page_count": null,
+      "sheet_count": null,
+      "text_layer_present": true,
+      "scan_likelihood": null,
+      "likely_contents": [],
+      "sections": [
+        {
+          "label": "unknown page 1",
+          "start_page": 1,
+          "end_page": 1,
+          "sheet_name": null,
+          "confidence": 0.0,
+          "signals": [
+            "unknown"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 2",
+          "start_page": 2,
+          "end_page": 2,
+          "sheet_name": null,
+          "confidence": 2.0,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 3-4",
+          "start_page": 3,
+          "end_page": 4,
+          "sheet_name": null,
+          "confidence": 4.0,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 5",
+          "start_page": 5,
+          "end_page": 5,
+          "sheet_name": null,
+          "confidence": 2.0,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 6-9",
+          "start_page": 6,
+          "end_page": 9,
+          "sheet_name": null,
+          "confidence": 14.5,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown page 10",
+          "start_page": 10,
+          "end_page": 10,
+          "sheet_name": null,
+          "confidence": 0.0,
+          "signals": [
+            "unknown"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 11",
+          "start_page": 11,
+          "end_page": 11,
+          "sheet_name": null,
+          "confidence": 2.0,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 12-13",
+          "start_page": 12,
+          "end_page": 13,
+          "sheet_name": null,
+          "confidence": 20.0,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown page 14",
+          "start_page": 14,
+          "end_page": 14,
+          "sheet_name": null,
+          "confidence": 0.0,
+          "signals": [
+            "unknown"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 15-17",
+          "start_page": 15,
+          "end_page": 17,
+          "sheet_name": null,
+          "confidence": 8.25,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "layout page 18",
+          "start_page": 18,
+          "end_page": 18,
+          "sheet_name": null,
+          "confidence": 4.5,
+          "signals": [
+            "layout"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 19-34",
+          "start_page": 19,
+          "end_page": 34,
+          "sheet_name": null,
+          "confidence": 12.5,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 35",
+          "start_page": 35,
+          "end_page": 35,
+          "sheet_name": null,
+          "confidence": 2.75,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 36-53",
+          "start_page": 36,
+          "end_page": 53,
+          "sheet_name": null,
+          "confidence": 27.5,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "layout pages 54-55",
+          "start_page": 54,
+          "end_page": 55,
+          "sheet_name": null,
+          "confidence": 4.5,
+          "signals": [
+            "layout"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 56-60",
+          "start_page": 56,
+          "end_page": 60,
+          "sheet_name": null,
+          "confidence": 6.25,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "layout page 61",
+          "start_page": 61,
+          "end_page": 61,
+          "sheet_name": null,
+          "confidence": 2.25,
+          "signals": [
+            "layout"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 62-75",
+          "start_page": 62,
+          "end_page": 75,
+          "sheet_name": null,
+          "confidence": 18.25,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "equipment_schedule page 76",
+          "start_page": 76,
+          "end_page": 76,
+          "sheet_name": null,
+          "confidence": 2.0,
+          "signals": [
+            "equipment_schedule"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram page 77",
+          "start_page": 77,
+          "end_page": 77,
+          "sheet_name": null,
+          "confidence": 8.25,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "layout page 78",
+          "start_page": 78,
+          "end_page": 78,
+          "sheet_name": null,
+          "confidence": 2.25,
+          "signals": [
+            "layout"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 79-91",
+          "start_page": 79,
+          "end_page": 91,
+          "sheet_name": null,
+          "confidence": 17.25,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown page 92",
+          "start_page": 92,
+          "end_page": 92,
+          "sheet_name": null,
+          "confidence": 0.0,
+          "signals": [
+            "unknown"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "layout page 93",
+          "start_page": 93,
+          "end_page": 93,
+          "sheet_name": null,
+          "confidence": 2.25,
+          "signals": [
+            "layout"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 94-135",
+          "start_page": 94,
+          "end_page": 135,
+          "sheet_name": null,
+          "confidence": 15.0,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 136",
+          "start_page": 136,
+          "end_page": 136,
+          "sheet_name": null,
+          "confidence": 2.0,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown pages 137-138",
+          "start_page": 137,
+          "end_page": 138,
+          "sheet_name": null,
+          "confidence": 0.0,
+          "signals": [
+            "unknown"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        }
+      ],
+      "recommended_actions": [],
+      "warnings": [],
+      "domains": [
+        "onboarding"
+      ],
+      "content_types": [
+        "equipment_schedule",
+        "layout",
+        "plant_metadata",
+        "single_line_diagram"
+      ],
+      "entities": [
+        "block",
+        "breaker",
+        "equipment",
+        "feeder",
+        "inverter",
+        "manufacturer",
+        "model",
+        "plant",
+        "project",
+        "site",
+        "transformer"
+      ],
+      "attributes": [
+        "capacity",
+        "location",
+        "owner",
+        "part_number",
+        "qty",
+        "rating"
+      ],
+      "relationships": [
+        "electrical_connection",
+        "physical_location"
+      ]
+    },
+    {
+      "file_id": null,
+      "file_name": "1MMC-10058-AXX-M001 - Sumrall User Manual -Rev1.pdf",
+      "file_type": "pdf",
+      "path": "data\\runs\\20260413T132521Z\\expanded_inputs\\OneDrive_2026-04-11\\3037.02.002 - Sumrall (MS3)\\1MMC-10058-AXX-M001 - Sumrall User Manual -Rev1.pdf",
+      "page_count": null,
+      "sheet_count": null,
+      "text_layer_present": true,
+      "scan_likelihood": null,
+      "likely_contents": [],
+      "sections": [
+        {
+          "label": "plant_metadata pages 1-2",
+          "start_page": 1,
+          "end_page": 2,
+          "sheet_name": null,
+          "confidence": 4.0,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram page 3",
+          "start_page": 3,
+          "end_page": 3,
+          "sheet_name": null,
+          "confidence": 4.25,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata pages 4-5",
+          "start_page": 4,
+          "end_page": 5,
+          "sheet_name": null,
+          "confidence": 3.5,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram page 6",
+          "start_page": 6,
+          "end_page": 6,
+          "sheet_name": null,
+          "confidence": 18.25,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 7",
+          "start_page": 7,
+          "end_page": 7,
+          "sheet_name": null,
+          "confidence": 4.0,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "equipment_schedule page 8",
+          "start_page": 8,
+          "end_page": 8,
+          "sheet_name": null,
+          "confidence": 5.5,
+          "signals": [
+            "equipment_schedule"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 9-10",
+          "start_page": 9,
+          "end_page": 10,
+          "sheet_name": null,
+          "confidence": 7.5,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata pages 11-14",
+          "start_page": 11,
+          "end_page": 14,
+          "sheet_name": null,
+          "confidence": 4.0,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "layout page 15",
+          "start_page": 15,
+          "end_page": 15,
+          "sheet_name": null,
+          "confidence": 2.75,
+          "signals": [
+            "layout"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram page 16",
+          "start_page": 16,
+          "end_page": 16,
+          "sheet_name": null,
+          "confidence": 4.0,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata pages 17-21",
+          "start_page": 17,
+          "end_page": 21,
+          "sheet_name": null,
+          "confidence": 4.0,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "layout page 22",
+          "start_page": 22,
+          "end_page": 22,
+          "sheet_name": null,
+          "confidence": 2.75,
+          "signals": [
+            "layout"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata pages 23-24",
+          "start_page": 23,
+          "end_page": 24,
+          "sheet_name": null,
+          "confidence": 2.0,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 25-27",
+          "start_page": 25,
+          "end_page": 27,
+          "sheet_name": null,
+          "confidence": 6.25,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 28",
+          "start_page": 28,
+          "end_page": 28,
+          "sheet_name": null,
+          "confidence": 4.0,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 29-33",
+          "start_page": 29,
+          "end_page": 33,
+          "sheet_name": null,
+          "confidence": 16.75,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata pages 34-36",
+          "start_page": 34,
+          "end_page": 36,
+          "sheet_name": null,
+          "confidence": 2.0,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "layout page 37",
+          "start_page": 37,
+          "end_page": 37,
+          "sheet_name": null,
+          "confidence": 2.75,
+          "signals": [
+            "layout"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "equipment_schedule page 38",
+          "start_page": 38,
+          "end_page": 38,
+          "sheet_name": null,
+          "confidence": 5.5,
+          "signals": [
+            "equipment_schedule"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata pages 39-43",
+          "start_page": 39,
+          "end_page": 43,
+          "sheet_name": null,
+          "confidence": 3.5,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "equipment_schedule page 44",
+          "start_page": 44,
+          "end_page": 44,
+          "sheet_name": null,
+          "confidence": 2.0,
+          "signals": [
+            "equipment_schedule"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata pages 45-51",
+          "start_page": 45,
+          "end_page": 51,
+          "sheet_name": null,
+          "confidence": 6.0,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        }
+      ],
+      "recommended_actions": [],
+      "warnings": [],
+      "domains": [
+        "onboarding"
+      ],
+      "content_types": [
+        "equipment_schedule",
+        "layout",
+        "plant_metadata",
+        "single_line_diagram"
+      ],
+      "entities": [
+        "block",
+        "breaker",
+        "equipment",
+        "feeder",
+        "inverter",
+        "manufacturer",
+        "model",
+        "plant",
+        "project",
+        "site",
+        "transformer"
+      ],
+      "attributes": [
+        "capacity",
+        "location",
+        "owner",
+        "part_number",
+        "qty",
+        "rating"
+      ],
+      "relationships": [
+        "electrical_connection",
+        "physical_location"
+      ]
+    },
+    {
+      "file_id": null,
+      "file_name": "MS-80Manual20160926V2.pdf",
+      "file_type": "pdf",
+      "path": "data\\runs\\20260413T132521Z\\expanded_inputs\\OneDrive_2026-04-11\\3037.02.002 - Sumrall (MS3)\\Metstaion new\\MS-80Manual20160926V2.pdf",
+      "page_count": null,
+      "sheet_count": null,
+      "text_layer_present": true,
+      "scan_likelihood": null,
+      "likely_contents": [],
+      "sections": [
+        {
+          "label": "unknown page 1",
+          "start_page": 1,
+          "end_page": 1,
+          "sheet_name": null,
+          "confidence": 1.5,
+          "signals": [
+            "unknown"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "layout pages 2-3",
+          "start_page": 2,
+          "end_page": 3,
+          "sheet_name": null,
+          "confidence": 3.5,
+          "signals": [
+            "layout"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram page 4",
+          "start_page": 4,
+          "end_page": 4,
+          "sheet_name": null,
+          "confidence": 2.0,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "equipment_schedule pages 5-6",
+          "start_page": 5,
+          "end_page": 6,
+          "sheet_name": null,
+          "confidence": 5.5,
+          "signals": [
+            "equipment_schedule"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 7",
+          "start_page": 7,
+          "end_page": 7,
+          "sheet_name": null,
+          "confidence": 7.0,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 8-14",
+          "start_page": 8,
+          "end_page": 14,
+          "sheet_name": null,
+          "confidence": 4.0,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 15",
+          "start_page": 15,
+          "end_page": 15,
+          "sheet_name": null,
+          "confidence": 2.75,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "equipment_schedule page 16",
+          "start_page": 16,
+          "end_page": 16,
+          "sheet_name": null,
+          "confidence": 6.0,
+          "signals": [
+            "equipment_schedule"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 17-19",
+          "start_page": 17,
+          "end_page": 19,
+          "sheet_name": null,
+          "confidence": 6.0,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 20",
+          "start_page": 20,
+          "end_page": 20,
+          "sheet_name": null,
+          "confidence": 4.25,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 21-22",
+          "start_page": 21,
+          "end_page": 22,
+          "sheet_name": null,
+          "confidence": 4.0,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "equipment_schedule page 23",
+          "start_page": 23,
+          "end_page": 23,
+          "sheet_name": null,
+          "confidence": 5.5,
+          "signals": [
+            "equipment_schedule"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 24-26",
+          "start_page": 24,
+          "end_page": 26,
+          "sheet_name": null,
+          "confidence": 6.0,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "equipment_schedule page 27",
+          "start_page": 27,
+          "end_page": 27,
+          "sheet_name": null,
+          "confidence": 3.5,
+          "signals": [
+            "equipment_schedule"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 28-30",
+          "start_page": 28,
+          "end_page": 30,
+          "sheet_name": null,
+          "confidence": 4.0,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata pages 31-32",
+          "start_page": 31,
+          "end_page": 32,
+          "sheet_name": null,
+          "confidence": 2.75,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram page 33",
+          "start_page": 33,
+          "end_page": 33,
+          "sheet_name": null,
+          "confidence": 2.0,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "layout page 34",
+          "start_page": 34,
+          "end_page": 34,
+          "sheet_name": null,
+          "confidence": 2.25,
+          "signals": [
+            "layout"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 35-37",
+          "start_page": 35,
+          "end_page": 37,
+          "sheet_name": null,
+          "confidence": 4.0,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "layout pages 38-39",
+          "start_page": 38,
+          "end_page": 39,
+          "sheet_name": null,
+          "confidence": 2.25,
+          "signals": [
+            "layout"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "equipment_schedule page 40",
+          "start_page": 40,
+          "end_page": 40,
+          "sheet_name": null,
+          "confidence": 5.0,
+          "signals": [
+            "equipment_schedule"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 41-43",
+          "start_page": 41,
+          "end_page": 43,
+          "sheet_name": null,
+          "confidence": 4.0,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "equipment_schedule page 44",
+          "start_page": 44,
+          "end_page": 44,
+          "sheet_name": null,
+          "confidence": 5.5,
+          "signals": [
+            "equipment_schedule"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram page 45",
+          "start_page": 45,
+          "end_page": 45,
+          "sheet_name": null,
+          "confidence": 4.0,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "equipment_schedule page 46",
+          "start_page": 46,
+          "end_page": 46,
+          "sheet_name": null,
+          "confidence": 4.5,
+          "signals": [
+            "equipment_schedule"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 47-48",
+          "start_page": 47,
+          "end_page": 48,
+          "sheet_name": null,
+          "confidence": 2.0,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown page 49",
+          "start_page": 49,
+          "end_page": 49,
+          "sheet_name": null,
+          "confidence": 1.5,
+          "signals": [
+            "unknown"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        }
+      ],
+      "recommended_actions": [],
+      "warnings": [],
+      "domains": [
+        "onboarding"
+      ],
+      "content_types": [
+        "equipment_schedule",
+        "layout",
+        "plant_metadata",
+        "single_line_diagram"
+      ],
+      "entities": [
+        "block",
+        "breaker",
+        "equipment",
+        "feeder",
+        "inverter",
+        "manufacturer",
+        "model",
+        "plant",
+        "project",
+        "site",
+        "transformer"
+      ],
+      "attributes": [
+        "capacity",
+        "location",
+        "owner",
+        "part_number",
+        "qty",
+        "rating"
+      ],
+      "relationships": [
+        "electrical_connection",
+        "physical_location"
+      ]
+    },
+    {
+      "file_id": null,
+      "file_name": "17024 - MS 3 - AS-BUILT - 20171206.pdf",
+      "file_type": "pdf",
+      "path": "data\\runs\\20260413T132521Z\\expanded_inputs\\OneDrive_2026-04-11\\3037.02.002 - Sumrall (MS3)\\2. As Builts\\2. Electrical\\17024 - MS 3 - AS-BUILT - 20171206.pdf",
+      "page_count": null,
+      "sheet_count": null,
+      "text_layer_present": true,
+      "scan_likelihood": null,
+      "likely_contents": [],
+      "sections": [
+        {
+          "label": "plant_metadata page 1",
+          "start_page": 1,
+          "end_page": 1,
+          "sheet_name": null,
+          "confidence": 38.0,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 2-6",
+          "start_page": 2,
+          "end_page": 6,
+          "sheet_name": null,
+          "confidence": 41.5,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "layout page 7",
+          "start_page": 7,
+          "end_page": 7,
+          "sheet_name": null,
+          "confidence": 15.5,
+          "signals": [
+            "layout"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram page 8",
+          "start_page": 8,
+          "end_page": 8,
+          "sheet_name": null,
+          "confidence": 18.25,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "layout pages 9-15",
+          "start_page": 9,
+          "end_page": 15,
+          "sheet_name": null,
+          "confidence": 17.25,
+          "signals": [
+            "layout"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram page 16",
+          "start_page": 16,
+          "end_page": 16,
+          "sheet_name": null,
+          "confidence": 20.0,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "layout pages 17-30",
+          "start_page": 17,
+          "end_page": 30,
+          "sheet_name": null,
+          "confidence": 15.0,
+          "signals": [
+            "layout"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 31-32",
+          "start_page": 31,
+          "end_page": 32,
+          "sheet_name": null,
+          "confidence": 19.0,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 33",
+          "start_page": 33,
+          "end_page": 33,
+          "sheet_name": null,
+          "confidence": 12.5,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 34-37",
+          "start_page": 34,
+          "end_page": 37,
+          "sheet_name": null,
+          "confidence": 28.5,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 38",
+          "start_page": 38,
+          "end_page": 38,
+          "sheet_name": null,
+          "confidence": 12.5,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown pages 39-41",
+          "start_page": 39,
+          "end_page": 41,
+          "sheet_name": null,
+          "confidence": 0.0,
+          "signals": [
+            "unknown"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram page 42",
+          "start_page": 42,
+          "end_page": 42,
+          "sheet_name": null,
+          "confidence": 28.25,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 43",
+          "start_page": 43,
+          "end_page": 43,
+          "sheet_name": null,
+          "confidence": 12.5,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        }
+      ],
+      "recommended_actions": [],
+      "warnings": [],
+      "domains": [
+        "onboarding"
+      ],
+      "content_types": [
+        "layout",
+        "plant_metadata",
+        "single_line_diagram"
+      ],
+      "entities": [
+        "block",
+        "breaker",
+        "equipment",
+        "feeder",
+        "inverter",
+        "plant",
+        "project",
+        "site",
+        "transformer"
+      ],
+      "attributes": [
+        "capacity",
+        "location",
+        "owner"
+      ],
+      "relationships": [
+        "electrical_connection",
+        "physical_location"
+      ]
+    },
+    {
+      "file_id": null,
+      "file_name": "17024 - MS 3 - AS-BUILT - 20171206.pdf",
+      "file_type": "pdf",
+      "path": "data\\runs\\20260413T132521Z\\expanded_inputs\\OneDrive_2026-04-11\\3037.02.002 - Sumrall (MS3)\\CombinerMapping\\17024 - MS 3 - AS-BUILT - 20171206.pdf",
+      "page_count": null,
+      "sheet_count": null,
+      "text_layer_present": true,
+      "scan_likelihood": null,
+      "likely_contents": [],
+      "sections": [
+        {
+          "label": "plant_metadata page 1",
+          "start_page": 1,
+          "end_page": 1,
+          "sheet_name": null,
+          "confidence": 38.0,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 2-6",
+          "start_page": 2,
+          "end_page": 6,
+          "sheet_name": null,
+          "confidence": 41.5,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "layout page 7",
+          "start_page": 7,
+          "end_page": 7,
+          "sheet_name": null,
+          "confidence": 15.5,
+          "signals": [
+            "layout"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram page 8",
+          "start_page": 8,
+          "end_page": 8,
+          "sheet_name": null,
+          "confidence": 18.25,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "layout pages 9-15",
+          "start_page": 9,
+          "end_page": 15,
+          "sheet_name": null,
+          "confidence": 17.25,
+          "signals": [
+            "layout"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram page 16",
+          "start_page": 16,
+          "end_page": 16,
+          "sheet_name": null,
+          "confidence": 20.0,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "layout pages 17-30",
+          "start_page": 17,
+          "end_page": 30,
+          "sheet_name": null,
+          "confidence": 15.0,
+          "signals": [
+            "layout"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 31-32",
+          "start_page": 31,
+          "end_page": 32,
+          "sheet_name": null,
+          "confidence": 19.0,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 33",
+          "start_page": 33,
+          "end_page": 33,
+          "sheet_name": null,
+          "confidence": 12.5,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 34-37",
+          "start_page": 34,
+          "end_page": 37,
+          "sheet_name": null,
+          "confidence": 28.5,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 38",
+          "start_page": 38,
+          "end_page": 38,
+          "sheet_name": null,
+          "confidence": 12.5,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown pages 39-41",
+          "start_page": 39,
+          "end_page": 41,
+          "sheet_name": null,
+          "confidence": 0.0,
+          "signals": [
+            "unknown"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram page 42",
+          "start_page": 42,
+          "end_page": 42,
+          "sheet_name": null,
+          "confidence": 28.25,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 43",
+          "start_page": 43,
+          "end_page": 43,
+          "sheet_name": null,
+          "confidence": 12.5,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        }
+      ],
+      "recommended_actions": [],
+      "warnings": [],
+      "domains": [
+        "onboarding"
+      ],
+      "content_types": [
+        "layout",
+        "plant_metadata",
+        "single_line_diagram"
+      ],
+      "entities": [
+        "block",
+        "breaker",
+        "equipment",
+        "feeder",
+        "inverter",
+        "plant",
+        "project",
+        "site",
+        "transformer"
+      ],
+      "attributes": [
+        "capacity",
+        "location",
+        "owner"
+      ],
+      "relationships": [
+        "electrical_connection",
+        "physical_location"
+      ]
+    },
+    {
+      "file_id": null,
+      "file_name": "2017-04-26 60% PV DESIGN (Blattner).pdf",
+      "file_type": "pdf",
+      "path": "data\\runs\\20260413T132521Z\\expanded_inputs\\OneDrive_2026-04-11\\3037.02.002 - Sumrall (MS3)\\2. As Builts\\2. Electrical\\2017-04-26 60% PV DESIGN (Blattner).pdf",
+      "page_count": null,
+      "sheet_count": null,
+      "text_layer_present": true,
+      "scan_likelihood": null,
+      "likely_contents": [],
+      "sections": [
+        {
+          "label": "plant_metadata page 1",
+          "start_page": 1,
+          "end_page": 1,
+          "sheet_name": null,
+          "confidence": 38.0,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 2-6",
+          "start_page": 2,
+          "end_page": 6,
+          "sheet_name": null,
+          "confidence": 41.5,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "layout page 7",
+          "start_page": 7,
+          "end_page": 7,
+          "sheet_name": null,
+          "confidence": 14.75,
+          "signals": [
+            "layout"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram page 8",
+          "start_page": 8,
+          "end_page": 8,
+          "sheet_name": null,
+          "confidence": 18.25,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "layout pages 9-15",
+          "start_page": 9,
+          "end_page": 15,
+          "sheet_name": null,
+          "confidence": 15.0,
+          "signals": [
+            "layout"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram page 16",
+          "start_page": 16,
+          "end_page": 16,
+          "sheet_name": null,
+          "confidence": 20.0,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "layout pages 17-30",
+          "start_page": 17,
+          "end_page": 30,
+          "sheet_name": null,
+          "confidence": 15.0,
+          "signals": [
+            "layout"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram page 31",
+          "start_page": 31,
+          "end_page": 31,
+          "sheet_name": null,
+          "confidence": 21.25,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 32",
+          "start_page": 32,
+          "end_page": 32,
+          "sheet_name": null,
+          "confidence": 12.5,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 33-36",
+          "start_page": 33,
+          "end_page": 36,
+          "sheet_name": null,
+          "confidence": 28.5,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 37",
+          "start_page": 37,
+          "end_page": 37,
+          "sheet_name": null,
+          "confidence": 12.5,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram page 38",
+          "start_page": 38,
+          "end_page": 38,
+          "sheet_name": null,
+          "confidence": 28.25,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 39",
+          "start_page": 39,
+          "end_page": 39,
+          "sheet_name": null,
+          "confidence": 12.5,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        }
+      ],
+      "recommended_actions": [],
+      "warnings": [],
+      "domains": [
+        "onboarding"
+      ],
+      "content_types": [
+        "layout",
+        "plant_metadata",
+        "single_line_diagram"
+      ],
+      "entities": [
+        "block",
+        "breaker",
+        "equipment",
+        "feeder",
+        "inverter",
+        "plant",
+        "project",
+        "site",
+        "transformer"
+      ],
+      "attributes": [
+        "capacity",
+        "location",
+        "owner"
+      ],
+      "relationships": [
+        "electrical_connection",
+        "physical_location"
+      ]
+    },
+    {
+      "file_id": null,
+      "file_name": "SMA SC2xxx Modbus Manual.pdf",
+      "file_type": "pdf",
+      "path": "data\\runs\\20260413T132521Z\\expanded_inputs\\OneDrive_2026-04-11\\3037.02.002 - Sumrall (MS3)\\CombinerMapping\\SMA SC2xxx Modbus Manual.pdf",
+      "page_count": null,
+      "sheet_count": null,
+      "text_layer_present": true,
+      "scan_likelihood": null,
+      "likely_contents": [],
+      "sections": [
+        {
+          "label": "unknown pages 1-2",
+          "start_page": 1,
+          "end_page": 2,
+          "sheet_name": null,
+          "confidence": 0.0,
+          "signals": [
+            "unknown"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 3",
+          "start_page": 3,
+          "end_page": 3,
+          "sheet_name": null,
+          "confidence": 4.75,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram page 4",
+          "start_page": 4,
+          "end_page": 4,
+          "sheet_name": null,
+          "confidence": 6.25,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "equipment_schedule page 5",
+          "start_page": 5,
+          "end_page": 5,
+          "sheet_name": null,
+          "confidence": 6.5,
+          "signals": [
+            "equipment_schedule"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram page 6",
+          "start_page": 6,
+          "end_page": 6,
+          "sheet_name": null,
+          "confidence": 8.25,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 7",
+          "start_page": 7,
+          "end_page": 7,
+          "sheet_name": null,
+          "confidence": 4.0,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 8-12",
+          "start_page": 8,
+          "end_page": 12,
+          "sheet_name": null,
+          "confidence": 6.25,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown page 13",
+          "start_page": 13,
+          "end_page": 13,
+          "sheet_name": null,
+          "confidence": 0.0,
+          "signals": [
+            "unknown"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata pages 14-16",
+          "start_page": 14,
+          "end_page": 16,
+          "sheet_name": null,
+          "confidence": 6.0,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 17-19",
+          "start_page": 17,
+          "end_page": 19,
+          "sheet_name": null,
+          "confidence": 6.25,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 20",
+          "start_page": 20,
+          "end_page": 20,
+          "sheet_name": null,
+          "confidence": 2.0,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 21-24",
+          "start_page": 21,
+          "end_page": 24,
+          "sheet_name": null,
+          "confidence": 16.75,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 25",
+          "start_page": 25,
+          "end_page": 25,
+          "sheet_name": null,
+          "confidence": 2.0,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "layout page 26",
+          "start_page": 26,
+          "end_page": 26,
+          "sheet_name": null,
+          "confidence": 2.25,
+          "signals": [
+            "layout"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "equipment_schedule pages 27-28",
+          "start_page": 27,
+          "end_page": 28,
+          "sheet_name": null,
+          "confidence": 8.5,
+          "signals": [
+            "equipment_schedule"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "layout pages 29-30",
+          "start_page": 29,
+          "end_page": 30,
+          "sheet_name": null,
+          "confidence": 4.5,
+          "signals": [
+            "layout"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "equipment_schedule page 31",
+          "start_page": 31,
+          "end_page": 31,
+          "sheet_name": null,
+          "confidence": 5.5,
+          "signals": [
+            "equipment_schedule"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown page 32",
+          "start_page": 32,
+          "end_page": 32,
+          "sheet_name": null,
+          "confidence": 0.0,
+          "signals": [
+            "unknown"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 33-36",
+          "start_page": 33,
+          "end_page": 36,
+          "sheet_name": null,
+          "confidence": 4.25,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown pages 37-38",
+          "start_page": 37,
+          "end_page": 38,
+          "sheet_name": null,
+          "confidence": 0.0,
+          "signals": [
+            "unknown"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        }
+      ],
+      "recommended_actions": [],
+      "warnings": [],
+      "domains": [
+        "onboarding"
+      ],
+      "content_types": [
+        "equipment_schedule",
+        "layout",
+        "plant_metadata",
+        "single_line_diagram"
+      ],
+      "entities": [
+        "block",
+        "breaker",
+        "equipment",
+        "feeder",
+        "inverter",
+        "manufacturer",
+        "model",
+        "plant",
+        "project",
+        "site",
+        "transformer"
+      ],
+      "attributes": [
+        "capacity",
+        "location",
+        "owner",
+        "part_number",
+        "qty",
+        "rating"
+      ],
+      "relationships": [
+        "electrical_connection",
+        "physical_location"
+      ]
+    },
+    {
+      "file_id": null,
+      "file_name": "A8810_Manual_3.pdf",
+      "file_type": "pdf",
+      "path": "data\\runs\\20260413T132521Z\\expanded_inputs\\OneDrive_2026-04-11\\3037.02.002 - Sumrall (MS3)\\Metstaion new\\A8810_Manual_3.pdf",
+      "page_count": null,
+      "sheet_count": null,
+      "text_layer_present": true,
+      "scan_likelihood": null,
+      "likely_contents": [],
+      "sections": [
+        {
+          "label": "equipment_schedule pages 1-2",
+          "start_page": 1,
+          "end_page": 2,
+          "sheet_name": null,
+          "confidence": 4.5,
+          "signals": [
+            "equipment_schedule"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata pages 3-4",
+          "start_page": 3,
+          "end_page": 4,
+          "sheet_name": null,
+          "confidence": 6.75,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "equipment_schedule pages 5-7",
+          "start_page": 5,
+          "end_page": 7,
+          "sheet_name": null,
+          "confidence": 10.0,
+          "signals": [
+            "equipment_schedule"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "layout page 8",
+          "start_page": 8,
+          "end_page": 8,
+          "sheet_name": null,
+          "confidence": 2.25,
+          "signals": [
+            "layout"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 9",
+          "start_page": 9,
+          "end_page": 9,
+          "sheet_name": null,
+          "confidence": 5.5,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "equipment_schedule page 10",
+          "start_page": 10,
+          "end_page": 10,
+          "sheet_name": null,
+          "confidence": 2.0,
+          "signals": [
+            "equipment_schedule"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata pages 11-13",
+          "start_page": 11,
+          "end_page": 13,
+          "sheet_name": null,
+          "confidence": 7.5,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram page 14",
+          "start_page": 14,
+          "end_page": 14,
+          "sheet_name": null,
+          "confidence": 8.25,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata pages 15-16",
+          "start_page": 15,
+          "end_page": 16,
+          "sheet_name": null,
+          "confidence": 6.75,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "equipment_schedule page 17",
+          "start_page": 17,
+          "end_page": 17,
+          "sheet_name": null,
+          "confidence": 5.0,
+          "signals": [
+            "equipment_schedule"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 18",
+          "start_page": 18,
+          "end_page": 18,
+          "sheet_name": null,
+          "confidence": 4.0,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "layout page 19",
+          "start_page": 19,
+          "end_page": 19,
+          "sheet_name": null,
+          "confidence": 2.0,
+          "signals": [
+            "layout"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 20",
+          "start_page": 20,
+          "end_page": 20,
+          "sheet_name": null,
+          "confidence": 4.75,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "equipment_schedule page 21",
+          "start_page": 21,
+          "end_page": 21,
+          "sheet_name": null,
+          "confidence": 6.0,
+          "signals": [
+            "equipment_schedule"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata pages 22-27",
+          "start_page": 22,
+          "end_page": 27,
+          "sheet_name": null,
+          "confidence": 13.75,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "layout pages 28-29",
+          "start_page": 28,
+          "end_page": 29,
+          "sheet_name": null,
+          "confidence": 2.25,
+          "signals": [
+            "layout"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown page 30",
+          "start_page": 30,
+          "end_page": 30,
+          "sheet_name": null,
+          "confidence": 0.0,
+          "signals": [
+            "unknown"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        }
+      ],
+      "recommended_actions": [],
+      "warnings": [],
+      "domains": [
+        "onboarding"
+      ],
+      "content_types": [
+        "equipment_schedule",
+        "layout",
+        "plant_metadata",
+        "single_line_diagram"
+      ],
+      "entities": [
+        "block",
+        "breaker",
+        "equipment",
+        "feeder",
+        "inverter",
+        "manufacturer",
+        "model",
+        "plant",
+        "project",
+        "site",
+        "transformer"
+      ],
+      "attributes": [
+        "capacity",
+        "location",
+        "owner",
+        "part_number",
+        "qty",
+        "rating"
+      ],
+      "relationships": [
+        "electrical_connection",
+        "physical_location"
+      ]
+    },
+    {
+      "file_id": null,
+      "file_name": "PVmet-150 Instructions Rev3.pdf",
+      "file_type": "pdf",
+      "path": "data\\runs\\20260413T132521Z\\expanded_inputs\\OneDrive_2026-04-11\\3037.02.002 - Sumrall (MS3)\\Metstaion new\\PVmet-150 Instructions Rev3.pdf",
+      "page_count": null,
+      "sheet_count": null,
+      "text_layer_present": true,
+      "scan_likelihood": null,
+      "likely_contents": [],
+      "sections": [
+        {
+          "label": "unknown pages 1-2",
+          "start_page": 1,
+          "end_page": 2,
+          "sheet_name": null,
+          "confidence": 1.5,
+          "signals": [
+            "unknown"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 3",
+          "start_page": 3,
+          "end_page": 3,
+          "sheet_name": null,
+          "confidence": 5.5,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram page 4",
+          "start_page": 4,
+          "end_page": 4,
+          "sheet_name": null,
+          "confidence": 2.0,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "equipment_schedule page 5",
+          "start_page": 5,
+          "end_page": 5,
+          "sheet_name": null,
+          "confidence": 5.0,
+          "signals": [
+            "equipment_schedule"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "layout page 6",
+          "start_page": 6,
+          "end_page": 6,
+          "sheet_name": null,
+          "confidence": 2.25,
+          "signals": [
+            "layout"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 7-8",
+          "start_page": 7,
+          "end_page": 8,
+          "sheet_name": null,
+          "confidence": 2.0,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 9",
+          "start_page": 9,
+          "end_page": 9,
+          "sheet_name": null,
+          "confidence": 4.0,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "equipment_schedule pages 10-12",
+          "start_page": 10,
+          "end_page": 12,
+          "sheet_name": null,
+          "confidence": 9.5,
+          "signals": [
+            "equipment_schedule"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram page 13",
+          "start_page": 13,
+          "end_page": 13,
+          "sheet_name": null,
+          "confidence": 2.0,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata pages 14-15",
+          "start_page": 14,
+          "end_page": 15,
+          "sheet_name": null,
+          "confidence": 2.0,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown pages 16-17",
+          "start_page": 16,
+          "end_page": 17,
+          "sheet_name": null,
+          "confidence": 0.0,
+          "signals": [
+            "unknown"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "equipment_schedule page 18",
+          "start_page": 18,
+          "end_page": 18,
+          "sheet_name": null,
+          "confidence": 2.0,
+          "signals": [
+            "equipment_schedule"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "layout page 19",
+          "start_page": 19,
+          "end_page": 19,
+          "sheet_name": null,
+          "confidence": 3.5,
+          "signals": [
+            "layout"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram page 20",
+          "start_page": 20,
+          "end_page": 20,
+          "sheet_name": null,
+          "confidence": 2.0,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "equipment_schedule page 21",
+          "start_page": 21,
+          "end_page": 21,
+          "sheet_name": null,
+          "confidence": 4.5,
+          "signals": [
+            "equipment_schedule"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        }
+      ],
+      "recommended_actions": [],
+      "warnings": [],
+      "domains": [
+        "onboarding"
+      ],
+      "content_types": [
+        "equipment_schedule",
+        "layout",
+        "plant_metadata",
+        "single_line_diagram"
+      ],
+      "entities": [
+        "block",
+        "breaker",
+        "equipment",
+        "feeder",
+        "inverter",
+        "manufacturer",
+        "model",
+        "plant",
+        "project",
+        "site",
+        "transformer"
+      ],
+      "attributes": [
+        "capacity",
+        "location",
+        "owner",
+        "part_number",
+        "qty",
+        "rating"
+      ],
+      "relationships": [
+        "electrical_connection",
+        "physical_location"
+      ]
+    },
+    {
+      "file_id": null,
+      "file_name": "RainWise - PVmet 330 - Instructions Rev.pdf",
+      "file_type": "pdf",
+      "path": "data\\runs\\20260413T132521Z\\expanded_inputs\\OneDrive_2026-04-11\\3037.02.002 - Sumrall (MS3)\\Metstaion new\\RainWise - PVmet 330 - Instructions Rev.pdf",
+      "page_count": null,
+      "sheet_count": null,
+      "text_layer_present": true,
+      "scan_likelihood": null,
+      "likely_contents": [],
+      "sections": [
+        {
+          "label": "unknown pages 1-2",
+          "start_page": 1,
+          "end_page": 2,
+          "sheet_name": null,
+          "confidence": 0.0,
+          "signals": [
+            "unknown"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata pages 3-4",
+          "start_page": 3,
+          "end_page": 4,
+          "sheet_name": null,
+          "confidence": 5.5,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram page 5",
+          "start_page": 5,
+          "end_page": 5,
+          "sheet_name": null,
+          "confidence": 6.0,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "layout page 6",
+          "start_page": 6,
+          "end_page": 6,
+          "sheet_name": null,
+          "confidence": 2.25,
+          "signals": [
+            "layout"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "equipment_schedule page 7",
+          "start_page": 7,
+          "end_page": 7,
+          "sheet_name": null,
+          "confidence": 10.0,
+          "signals": [
+            "equipment_schedule"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 8",
+          "start_page": 8,
+          "end_page": 8,
+          "sheet_name": null,
+          "confidence": 4.0,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown page 9",
+          "start_page": 9,
+          "end_page": 9,
+          "sheet_name": null,
+          "confidence": 0.0,
+          "signals": [
+            "unknown"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "layout page 10",
+          "start_page": 10,
+          "end_page": 10,
+          "sheet_name": null,
+          "confidence": 3.5,
+          "signals": [
+            "layout"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 11-12",
+          "start_page": 11,
+          "end_page": 12,
+          "sheet_name": null,
+          "confidence": 2.0,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "equipment_schedule page 13",
+          "start_page": 13,
+          "end_page": 13,
+          "sheet_name": null,
+          "confidence": 4.5,
+          "signals": [
+            "equipment_schedule"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        }
+      ],
+      "recommended_actions": [],
+      "warnings": [],
+      "domains": [
+        "onboarding"
+      ],
+      "content_types": [
+        "equipment_schedule",
+        "layout",
+        "plant_metadata",
+        "single_line_diagram"
+      ],
+      "entities": [
+        "block",
+        "breaker",
+        "equipment",
+        "feeder",
+        "inverter",
+        "manufacturer",
+        "model",
+        "plant",
+        "project",
+        "site",
+        "transformer"
+      ],
+      "attributes": [
+        "capacity",
+        "location",
+        "owner",
+        "part_number",
+        "qty",
+        "rating"
+      ],
+      "relationships": [
+        "electrical_connection",
+        "physical_location"
+      ]
+    },
+    {
+      "file_id": null,
+      "file_name": "1MMC-10058-AXX-S002 - Power Plant Controller Rev2.pdf",
+      "file_type": "pdf",
+      "path": "data\\runs\\20260413T132521Z\\expanded_inputs\\OneDrive_2026-04-11\\3037.02.002 - Sumrall (MS3)\\1MMC-10058-AXX-S002 - Power Plant Controller Rev2.pdf",
+      "page_count": null,
+      "sheet_count": null,
+      "text_layer_present": true,
+      "scan_likelihood": null,
+      "likely_contents": [],
+      "sections": [
+        {
+          "label": "plant_metadata page 1",
+          "start_page": 1,
+          "end_page": 1,
+          "sheet_name": null,
+          "confidence": 4.0,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "equipment_schedule page 2",
+          "start_page": 2,
+          "end_page": 2,
+          "sheet_name": null,
+          "confidence": 2.0,
+          "signals": [
+            "equipment_schedule"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 3",
+          "start_page": 3,
+          "end_page": 3,
+          "sheet_name": null,
+          "confidence": 4.0,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram page 4",
+          "start_page": 4,
+          "end_page": 4,
+          "sheet_name": null,
+          "confidence": 4.25,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 5",
+          "start_page": 5,
+          "end_page": 5,
+          "sheet_name": null,
+          "confidence": 8.0,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram pages 6-7",
+          "start_page": 6,
+          "end_page": 7,
+          "sheet_name": null,
+          "confidence": 4.25,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 8",
+          "start_page": 8,
+          "end_page": 8,
+          "sheet_name": null,
+          "confidence": 4.0,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram page 9",
+          "start_page": 9,
+          "end_page": 9,
+          "sheet_name": null,
+          "confidence": 8.25,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata page 10",
+          "start_page": 10,
+          "end_page": 10,
+          "sheet_name": null,
+          "confidence": 4.0,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        }
+      ],
+      "recommended_actions": [],
+      "warnings": [],
+      "domains": [
+        "onboarding"
+      ],
+      "content_types": [
+        "equipment_schedule",
+        "plant_metadata",
+        "single_line_diagram"
+      ],
+      "entities": [
+        "breaker",
+        "equipment",
+        "feeder",
+        "inverter",
+        "manufacturer",
+        "model",
+        "plant",
+        "project",
+        "site",
+        "transformer"
+      ],
+      "attributes": [
+        "capacity",
+        "location",
+        "owner",
+        "part_number",
+        "qty",
+        "rating"
+      ],
+      "relationships": [
+        "electrical_connection"
+      ]
+    },
+    {
+      "file_id": null,
+      "file_name": "1MMC-10058-AXX-L001-rev4 Network Layout.pdf",
+      "file_type": "pdf",
+      "path": "data\\runs\\20260413T132521Z\\expanded_inputs\\OneDrive_2026-04-11\\3037.02.002 - Sumrall (MS3)\\1MMC-10058-AXX-L001-rev4 Network Layout.pdf",
+      "page_count": null,
+      "sheet_count": null,
+      "text_layer_present": true,
+      "scan_likelihood": null,
+      "likely_contents": [],
+      "sections": [
+        {
+          "label": "layout page 1",
+          "start_page": 1,
+          "end_page": 1,
+          "sheet_name": null,
+          "confidence": 2.75,
+          "signals": [
+            "layout"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram page 2",
+          "start_page": 2,
+          "end_page": 2,
+          "sheet_name": null,
+          "confidence": 8.75,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "plant_metadata pages 3-6",
+          "start_page": 3,
+          "end_page": 6,
+          "sheet_name": null,
+          "confidence": 13.75,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "single_line_diagram page 7",
+          "start_page": 7,
+          "end_page": 7,
+          "sheet_name": null,
+          "confidence": 14.75,
+          "signals": [
+            "single_line_diagram"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        }
+      ],
+      "recommended_actions": [],
+      "warnings": [],
+      "domains": [
+        "onboarding"
+      ],
+      "content_types": [
+        "layout",
+        "plant_metadata",
+        "single_line_diagram"
+      ],
+      "entities": [
+        "block",
+        "breaker",
+        "equipment",
+        "feeder",
+        "inverter",
+        "plant",
+        "project",
+        "site",
+        "transformer"
+      ],
+      "attributes": [
+        "capacity",
+        "location",
+        "owner"
+      ],
+      "relationships": [
+        "electrical_connection",
+        "physical_location"
+      ]
+    },
+    {
+      "file_id": null,
+      "file_name": "ABB Register Map.pdf",
+      "file_type": "pdf",
+      "path": "data\\runs\\20260413T132521Z\\expanded_inputs\\OneDrive_2026-04-11\\3037.02.002 - Sumrall (MS3)\\Metstaion new\\ABB Register Map.pdf",
+      "page_count": null,
+      "sheet_count": null,
+      "text_layer_present": true,
+      "scan_likelihood": null,
+      "likely_contents": [],
+      "sections": [
+        {
+          "label": "plant_metadata page 1",
+          "start_page": 1,
+          "end_page": 1,
+          "sheet_name": null,
+          "confidence": 2.0,
+          "signals": [
+            "plant_metadata"
+          ],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        }
+      ],
+      "recommended_actions": [],
+      "warnings": [],
+      "domains": [
+        "onboarding"
+      ],
+      "content_types": [
+        "plant_metadata"
+      ],
+      "entities": [
+        "plant",
+        "project",
+        "site"
+      ],
+      "attributes": [
+        "capacity",
+        "location",
+        "owner"
+      ],
+      "relationships": []
+    },
+    {
+      "file_id": null,
+      "file_name": "MS3_August1_August21.xlsx",
+      "file_type": "xlsx",
+      "path": "data\\runs\\20260413T132521Z\\expanded_inputs\\OneDrive_2026-04-11\\3037.02.002 - Sumrall (MS3)\\MS3_August1_August21.xlsx",
+      "page_count": null,
+      "sheet_count": null,
+      "text_layer_present": null,
+      "scan_likelihood": null,
+      "likely_contents": [],
+      "sections": [
+        {
+          "label": "unknown",
+          "start_page": null,
+          "end_page": null,
+          "sheet_name": "08_01",
+          "confidence": 0.25,
+          "signals": [],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown",
+          "start_page": null,
+          "end_page": null,
+          "sheet_name": "08_02",
+          "confidence": 0.25,
+          "signals": [],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown",
+          "start_page": null,
+          "end_page": null,
+          "sheet_name": "08_03",
+          "confidence": 0.25,
+          "signals": [],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown",
+          "start_page": null,
+          "end_page": null,
+          "sheet_name": "08_04",
+          "confidence": 0.25,
+          "signals": [],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown",
+          "start_page": null,
+          "end_page": null,
+          "sheet_name": "08_05",
+          "confidence": 0.25,
+          "signals": [],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown",
+          "start_page": null,
+          "end_page": null,
+          "sheet_name": "08_06",
+          "confidence": 0.25,
+          "signals": [],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown",
+          "start_page": null,
+          "end_page": null,
+          "sheet_name": "08_07",
+          "confidence": 0.25,
+          "signals": [],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown",
+          "start_page": null,
+          "end_page": null,
+          "sheet_name": "08_08",
+          "confidence": 0.25,
+          "signals": [],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown",
+          "start_page": null,
+          "end_page": null,
+          "sheet_name": "08_09",
+          "confidence": 0.25,
+          "signals": [],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown",
+          "start_page": null,
+          "end_page": null,
+          "sheet_name": "08_10",
+          "confidence": 0.25,
+          "signals": [],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown",
+          "start_page": null,
+          "end_page": null,
+          "sheet_name": "08_11",
+          "confidence": 0.25,
+          "signals": [],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown",
+          "start_page": null,
+          "end_page": null,
+          "sheet_name": "08_12",
+          "confidence": 0.25,
+          "signals": [],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown",
+          "start_page": null,
+          "end_page": null,
+          "sheet_name": "08_13",
+          "confidence": 0.25,
+          "signals": [],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown",
+          "start_page": null,
+          "end_page": null,
+          "sheet_name": "08_14",
+          "confidence": 0.25,
+          "signals": [],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown",
+          "start_page": null,
+          "end_page": null,
+          "sheet_name": "08_15",
+          "confidence": 0.25,
+          "signals": [],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown",
+          "start_page": null,
+          "end_page": null,
+          "sheet_name": "08_16",
+          "confidence": 0.25,
+          "signals": [],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown",
+          "start_page": null,
+          "end_page": null,
+          "sheet_name": "08_17",
+          "confidence": 0.25,
+          "signals": [],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown",
+          "start_page": null,
+          "end_page": null,
+          "sheet_name": "08_18",
+          "confidence": 0.25,
+          "signals": [],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown",
+          "start_page": null,
+          "end_page": null,
+          "sheet_name": "08_19",
+          "confidence": 0.25,
+          "signals": [],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown",
+          "start_page": null,
+          "end_page": null,
+          "sheet_name": "08_20",
+          "confidence": 0.25,
+          "signals": [],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "unknown",
+          "start_page": null,
+          "end_page": null,
+          "sheet_name": "08_21",
+          "confidence": 0.25,
+          "signals": [],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        }
+      ],
+      "recommended_actions": [],
+      "warnings": [],
+      "domains": [],
+      "content_types": [],
+      "entities": [],
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "file_id": null,
+      "file_name": "170926_8760_MS3_10272017 (2).xlsx",
+      "file_type": "xlsx",
+      "path": "data\\runs\\20260413T132521Z\\expanded_inputs\\OneDrive_2026-04-11\\3037.02.002 - Sumrall (MS3)\\170926_8760_MS3_10272017 (2).xlsx",
+      "page_count": null,
+      "sheet_count": null,
+      "text_layer_present": null,
+      "scan_likelihood": null,
+      "likely_contents": [],
+      "sections": [
+        {
+          "label": "unknown",
+          "start_page": null,
+          "end_page": null,
+          "sheet_name": "8760",
+          "confidence": 0.25,
+          "signals": [],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        }
+      ],
+      "recommended_actions": [],
+      "warnings": [],
+      "domains": [],
+      "content_types": [],
+      "entities": [],
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "file_id": null,
+      "file_name": "Copy of Exported_IX_AI_Rev2 with highlited items..xlsx",
+      "file_type": "xlsx",
+      "path": "data\\runs\\20260413T132521Z\\expanded_inputs\\OneDrive_2026-04-11\\3037.02.002 - Sumrall (MS3)\\Copy of Exported_IX_AI_Rev2 with highlited items..xlsx",
+      "page_count": null,
+      "sheet_count": null,
+      "text_layer_present": null,
+      "scan_likelihood": null,
+      "likely_contents": [],
+      "sections": [
+        {
+          "label": "unknown",
+          "start_page": null,
+          "end_page": null,
+          "sheet_name": "Sheet1",
+          "confidence": 0.25,
+          "signals": [],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        }
+      ],
+      "recommended_actions": [],
+      "warnings": [],
+      "domains": [],
+      "content_types": [],
+      "entities": [],
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "file_id": null,
+      "file_name": "Mississippi_DNP_Map_Rev8.xlsx",
+      "file_type": "xlsx",
+      "path": "data\\runs\\20260413T132521Z\\expanded_inputs\\OneDrive_2026-04-11\\3037.02.002 - Sumrall (MS3)\\Mississippi_DNP_Map_Rev8.xlsx",
+      "page_count": null,
+      "sheet_count": null,
+      "text_layer_present": null,
+      "scan_likelihood": null,
+      "likely_contents": [],
+      "sections": [
+        {
+          "label": "plant_metadata",
+          "start_page": null,
+          "end_page": null,
+          "sheet_name": "Site SCADA DNP",
+          "confidence": 0.62,
+          "signals": [
+            "sheet_name:site",
+            "structure:0.8"
+          ],
+          "domains": [
+            "solar",
+            "bess",
+            "wind",
+            "grid"
+          ],
+          "content_types": [
+            "metadata"
+          ],
+          "entities": [
+            "plant",
+            "site",
+            "project"
+          ],
+          "attributes": [
+            "name",
+            "location",
+            "capacity",
+            "commissioning_date",
+            "owner"
+          ],
+          "relationships": []
+        },
+        {
+          "label": "unknown",
+          "start_page": null,
+          "end_page": null,
+          "sheet_name": "Revision History",
+          "confidence": 0.25,
+          "signals": [],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        }
+      ],
+      "recommended_actions": [],
+      "warnings": [],
+      "domains": [
+        "bess",
+        "grid",
+        "solar",
+        "wind"
+      ],
+      "content_types": [
+        "metadata"
+      ],
+      "entities": [
+        "plant",
+        "project",
+        "site"
+      ],
+      "attributes": [
+        "capacity",
+        "commissioning_date",
+        "location",
+        "name",
+        "owner"
+      ],
+      "relationships": []
+    },
+    {
+      "file_id": null,
+      "file_name": "Origis MS3 - IP Addresses rev2.xlsx",
+      "file_type": "xlsx",
+      "path": "data\\runs\\20260413T132521Z\\expanded_inputs\\OneDrive_2026-04-11\\3037.02.002 - Sumrall (MS3)\\Origis MS3 - IP Addresses rev2.xlsx",
+      "page_count": null,
+      "sheet_count": null,
+      "text_layer_present": null,
+      "scan_likelihood": null,
+      "likely_contents": [],
+      "sections": [
+        {
+          "label": "inverter_list",
+          "start_page": null,
+          "end_page": null,
+          "sheet_name": "Sheet1",
+          "confidence": 0.62,
+          "signals": [
+            "header:inverter",
+            "header:inv",
+            "header:station",
+            "structure:0.8"
+          ],
+          "domains": [
+            "solar",
+            "bess"
+          ],
+          "content_types": [
+            "table",
+            "equipment_list"
+          ],
+          "entities": [
+            "inverter"
+          ],
+          "attributes": [
+            "manufacturer",
+            "model",
+            "ac_power",
+            "dc_power",
+            "quantity"
+          ],
+          "relationships": []
+        }
+      ],
+      "recommended_actions": [],
+      "warnings": [],
+      "domains": [
+        "bess",
+        "solar"
+      ],
+      "content_types": [
+        "equipment_list",
+        "table"
+      ],
+      "entities": [
+        "inverter"
+      ],
+      "attributes": [
+        "ac_power",
+        "dc_power",
+        "manufacturer",
+        "model",
+        "quantity"
+      ],
+      "relationships": []
+    },
+    {
+      "file_id": null,
+      "file_name": "CBX Landings inside inverter.HO.xlsx",
+      "file_type": "xlsx",
+      "path": "data\\runs\\20260413T132521Z\\expanded_inputs\\OneDrive_2026-04-11\\3037.02.002 - Sumrall (MS3)\\CombinerMapping\\CBX Landings inside inverter.HO.xlsx",
+      "page_count": null,
+      "sheet_count": null,
+      "text_layer_present": null,
+      "scan_likelihood": null,
+      "likely_contents": [],
+      "sections": [
+        {
+          "label": "unknown",
+          "start_page": null,
+          "end_page": null,
+          "sheet_name": "Sheet1",
+          "confidence": 0.25,
+          "signals": [],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        },
+        {
+          "label": "string_table",
+          "start_page": null,
+          "end_page": null,
+          "sheet_name": "Sheet2",
+          "confidence": 0.62,
+          "signals": [
+            "header:dc",
+            "header:input"
+          ],
+          "domains": [
+            "solar"
+          ],
+          "content_types": [
+            "table",
+            "electrical"
+          ],
+          "entities": [
+            "string",
+            "combiner",
+            "array"
+          ],
+          "attributes": [
+            "string_count",
+            "modules_per_string",
+            "mppt",
+            "dc_input"
+          ],
+          "relationships": []
+        }
+      ],
+      "recommended_actions": [],
+      "warnings": [],
+      "domains": [
+        "solar"
+      ],
+      "content_types": [
+        "electrical",
+        "table"
+      ],
+      "entities": [
+        "array",
+        "combiner",
+        "string"
+      ],
+      "attributes": [
+        "dc_input",
+        "modules_per_string",
+        "mppt",
+        "string_count"
+      ],
+      "relationships": []
+    },
+    {
+      "file_id": null,
+      "file_name": "MS3 PF Mapping_issues.xlsx",
+      "file_type": "xlsx",
+      "path": "data\\runs\\20260413T132521Z\\expanded_inputs\\OneDrive_2026-04-11\\3037.02.002 - Sumrall (MS3)\\MS3 PF Mapping_issues.xlsx",
+      "page_count": null,
+      "sheet_count": null,
+      "text_layer_present": null,
+      "scan_likelihood": null,
+      "likely_contents": [],
+      "sections": [
+        {
+          "label": "unknown",
+          "start_page": null,
+          "end_page": null,
+          "sheet_name": "Sheet1",
+          "confidence": 0.25,
+          "signals": [],
+          "domains": [],
+          "content_types": [],
+          "entities": [],
+          "attributes": [],
+          "relationships": []
+        }
+      ],
+      "recommended_actions": [],
+      "warnings": [],
+      "domains": [],
+      "content_types": [],
+      "entities": [],
+      "attributes": [],
+      "relationships": []
+    }
+  ],
+  "global_findings": [
+    "23 supported files scanned",
+    "13 PDF files found",
+    "7 Excel files found",
+    "3 image files found"
+  ],
+  "extraction_plan": [
+    {
+      "file_name": "User Manual_SC1850-US, SC2200-US, 2500-EV-US-BA-A1-en-V20.pdf",
+      "file_type": "pdf",
+      "targets": [
+        {
+          "label": "unknown page 1",
+          "start_page": 1,
+          "end_page": 1
+        },
+        {
+          "label": "plant_metadata page 2",
+          "start_page": 2,
+          "end_page": 2
+        },
+        {
+          "label": "single_line_diagram pages 3-4",
+          "start_page": 3,
+          "end_page": 4
+        },
+        {
+          "label": "plant_metadata page 5",
+          "start_page": 5,
+          "end_page": 5
+        },
+        {
+          "label": "single_line_diagram pages 6-9",
+          "start_page": 6,
+          "end_page": 9
+        },
+        {
+          "label": "unknown page 10",
+          "start_page": 10,
+          "end_page": 10
+        },
+        {
+          "label": "plant_metadata page 11",
+          "start_page": 11,
+          "end_page": 11
+        },
+        {
+          "label": "single_line_diagram pages 12-13",
+          "start_page": 12,
+          "end_page": 13
+        },
+        {
+          "label": "unknown page 14",
+          "start_page": 14,
+          "end_page": 14
+        },
+        {
+          "label": "single_line_diagram pages 15-17",
+          "start_page": 15,
+          "end_page": 17
+        },
+        {
+          "label": "layout page 18",
+          "start_page": 18,
+          "end_page": 18
+        },
+        {
+          "label": "single_line_diagram pages 19-34",
+          "start_page": 19,
+          "end_page": 34
+        },
+        {
+          "label": "plant_metadata page 35",
+          "start_page": 35,
+          "end_page": 35
+        },
+        {
+          "label": "single_line_diagram pages 36-53",
+          "start_page": 36,
+          "end_page": 53
+        },
+        {
+          "label": "layout pages 54-55",
+          "start_page": 54,
+          "end_page": 55
+        },
+        {
+          "label": "single_line_diagram pages 56-60",
+          "start_page": 56,
+          "end_page": 60
+        },
+        {
+          "label": "layout page 61",
+          "start_page": 61,
+          "end_page": 61
+        },
+        {
+          "label": "single_line_diagram pages 62-75",
+          "start_page": 62,
+          "end_page": 75
+        },
+        {
+          "label": "equipment_schedule page 76",
+          "start_page": 76,
+          "end_page": 76
+        },
+        {
+          "label": "single_line_diagram page 77",
+          "start_page": 77,
+          "end_page": 77
+        },
+        {
+          "label": "layout page 78",
+          "start_page": 78,
+          "end_page": 78
+        },
+        {
+          "label": "single_line_diagram pages 79-91",
+          "start_page": 79,
+          "end_page": 91
+        },
+        {
+          "label": "unknown page 92",
+          "start_page": 92,
+          "end_page": 92
+        },
+        {
+          "label": "layout page 93",
+          "start_page": 93,
+          "end_page": 93
+        },
+        {
+          "label": "single_line_diagram pages 94-135",
+          "start_page": 94,
+          "end_page": 135
+        },
+        {
+          "label": "plant_metadata page 136",
+          "start_page": 136,
+          "end_page": 136
+        },
+        {
+          "label": "unknown pages 137-138",
+          "start_page": 137,
+          "end_page": 138
+        }
+      ]
+    },
+    {
+      "file_name": "1MMC-10058-AXX-M001 - Sumrall User Manual -Rev1.pdf",
+      "file_type": "pdf",
+      "targets": [
+        {
+          "label": "plant_metadata pages 1-2",
+          "start_page": 1,
+          "end_page": 2
+        },
+        {
+          "label": "single_line_diagram page 3",
+          "start_page": 3,
+          "end_page": 3
+        },
+        {
+          "label": "plant_metadata pages 4-5",
+          "start_page": 4,
+          "end_page": 5
+        },
+        {
+          "label": "single_line_diagram page 6",
+          "start_page": 6,
+          "end_page": 6
+        },
+        {
+          "label": "plant_metadata page 7",
+          "start_page": 7,
+          "end_page": 7
+        },
+        {
+          "label": "equipment_schedule page 8",
+          "start_page": 8,
+          "end_page": 8
+        },
+        {
+          "label": "single_line_diagram pages 9-10",
+          "start_page": 9,
+          "end_page": 10
+        },
+        {
+          "label": "plant_metadata pages 11-14",
+          "start_page": 11,
+          "end_page": 14
+        },
+        {
+          "label": "layout page 15",
+          "start_page": 15,
+          "end_page": 15
+        },
+        {
+          "label": "single_line_diagram page 16",
+          "start_page": 16,
+          "end_page": 16
+        },
+        {
+          "label": "plant_metadata pages 17-21",
+          "start_page": 17,
+          "end_page": 21
+        },
+        {
+          "label": "layout page 22",
+          "start_page": 22,
+          "end_page": 22
+        },
+        {
+          "label": "plant_metadata pages 23-24",
+          "start_page": 23,
+          "end_page": 24
+        },
+        {
+          "label": "single_line_diagram pages 25-27",
+          "start_page": 25,
+          "end_page": 27
+        },
+        {
+          "label": "plant_metadata page 28",
+          "start_page": 28,
+          "end_page": 28
+        },
+        {
+          "label": "single_line_diagram pages 29-33",
+          "start_page": 29,
+          "end_page": 33
+        },
+        {
+          "label": "plant_metadata pages 34-36",
+          "start_page": 34,
+          "end_page": 36
+        },
+        {
+          "label": "layout page 37",
+          "start_page": 37,
+          "end_page": 37
+        },
+        {
+          "label": "equipment_schedule page 38",
+          "start_page": 38,
+          "end_page": 38
+        },
+        {
+          "label": "plant_metadata pages 39-43",
+          "start_page": 39,
+          "end_page": 43
+        },
+        {
+          "label": "equipment_schedule page 44",
+          "start_page": 44,
+          "end_page": 44
+        },
+        {
+          "label": "plant_metadata pages 45-51",
+          "start_page": 45,
+          "end_page": 51
+        }
+      ]
+    },
+    {
+      "file_name": "MS-80Manual20160926V2.pdf",
+      "file_type": "pdf",
+      "targets": [
+        {
+          "label": "unknown page 1",
+          "start_page": 1,
+          "end_page": 1
+        },
+        {
+          "label": "layout pages 2-3",
+          "start_page": 2,
+          "end_page": 3
+        },
+        {
+          "label": "single_line_diagram page 4",
+          "start_page": 4,
+          "end_page": 4
+        },
+        {
+          "label": "equipment_schedule pages 5-6",
+          "start_page": 5,
+          "end_page": 6
+        },
+        {
+          "label": "plant_metadata page 7",
+          "start_page": 7,
+          "end_page": 7
+        },
+        {
+          "label": "single_line_diagram pages 8-14",
+          "start_page": 8,
+          "end_page": 14
+        },
+        {
+          "label": "plant_metadata page 15",
+          "start_page": 15,
+          "end_page": 15
+        },
+        {
+          "label": "equipment_schedule page 16",
+          "start_page": 16,
+          "end_page": 16
+        },
+        {
+          "label": "single_line_diagram pages 17-19",
+          "start_page": 17,
+          "end_page": 19
+        },
+        {
+          "label": "plant_metadata page 20",
+          "start_page": 20,
+          "end_page": 20
+        },
+        {
+          "label": "single_line_diagram pages 21-22",
+          "start_page": 21,
+          "end_page": 22
+        },
+        {
+          "label": "equipment_schedule page 23",
+          "start_page": 23,
+          "end_page": 23
+        },
+        {
+          "label": "single_line_diagram pages 24-26",
+          "start_page": 24,
+          "end_page": 26
+        },
+        {
+          "label": "equipment_schedule page 27",
+          "start_page": 27,
+          "end_page": 27
+        },
+        {
+          "label": "single_line_diagram pages 28-30",
+          "start_page": 28,
+          "end_page": 30
+        },
+        {
+          "label": "plant_metadata pages 31-32",
+          "start_page": 31,
+          "end_page": 32
+        },
+        {
+          "label": "single_line_diagram page 33",
+          "start_page": 33,
+          "end_page": 33
+        },
+        {
+          "label": "layout page 34",
+          "start_page": 34,
+          "end_page": 34
+        },
+        {
+          "label": "single_line_diagram pages 35-37",
+          "start_page": 35,
+          "end_page": 37
+        },
+        {
+          "label": "layout pages 38-39",
+          "start_page": 38,
+          "end_page": 39
+        },
+        {
+          "label": "equipment_schedule page 40",
+          "start_page": 40,
+          "end_page": 40
+        },
+        {
+          "label": "single_line_diagram pages 41-43",
+          "start_page": 41,
+          "end_page": 43
+        },
+        {
+          "label": "equipment_schedule page 44",
+          "start_page": 44,
+          "end_page": 44
+        },
+        {
+          "label": "single_line_diagram page 45",
+          "start_page": 45,
+          "end_page": 45
+        },
+        {
+          "label": "equipment_schedule page 46",
+          "start_page": 46,
+          "end_page": 46
+        },
+        {
+          "label": "single_line_diagram pages 47-48",
+          "start_page": 47,
+          "end_page": 48
+        },
+        {
+          "label": "unknown page 49",
+          "start_page": 49,
+          "end_page": 49
+        }
+      ]
+    },
+    {
+      "file_name": "17024 - MS 3 - AS-BUILT - 20171206.pdf",
+      "file_type": "pdf",
+      "targets": [
+        {
+          "label": "plant_metadata page 1",
+          "start_page": 1,
+          "end_page": 1
+        },
+        {
+          "label": "single_line_diagram pages 2-6",
+          "start_page": 2,
+          "end_page": 6
+        },
+        {
+          "label": "layout page 7",
+          "start_page": 7,
+          "end_page": 7
+        },
+        {
+          "label": "single_line_diagram page 8",
+          "start_page": 8,
+          "end_page": 8
+        },
+        {
+          "label": "layout pages 9-15",
+          "start_page": 9,
+          "end_page": 15
+        },
+        {
+          "label": "single_line_diagram page 16",
+          "start_page": 16,
+          "end_page": 16
+        },
+        {
+          "label": "layout pages 17-30",
+          "start_page": 17,
+          "end_page": 30
+        },
+        {
+          "label": "single_line_diagram pages 31-32",
+          "start_page": 31,
+          "end_page": 32
+        },
+        {
+          "label": "plant_metadata page 33",
+          "start_page": 33,
+          "end_page": 33
+        },
+        {
+          "label": "single_line_diagram pages 34-37",
+          "start_page": 34,
+          "end_page": 37
+        },
+        {
+          "label": "plant_metadata page 38",
+          "start_page": 38,
+          "end_page": 38
+        },
+        {
+          "label": "unknown pages 39-41",
+          "start_page": 39,
+          "end_page": 41
+        },
+        {
+          "label": "single_line_diagram page 42",
+          "start_page": 42,
+          "end_page": 42
+        },
+        {
+          "label": "plant_metadata page 43",
+          "start_page": 43,
+          "end_page": 43
+        }
+      ]
+    },
+    {
+      "file_name": "17024 - MS 3 - AS-BUILT - 20171206.pdf",
+      "file_type": "pdf",
+      "targets": [
+        {
+          "label": "plant_metadata page 1",
+          "start_page": 1,
+          "end_page": 1
+        },
+        {
+          "label": "single_line_diagram pages 2-6",
+          "start_page": 2,
+          "end_page": 6
+        },
+        {
+          "label": "layout page 7",
+          "start_page": 7,
+          "end_page": 7
+        },
+        {
+          "label": "single_line_diagram page 8",
+          "start_page": 8,
+          "end_page": 8
+        },
+        {
+          "label": "layout pages 9-15",
+          "start_page": 9,
+          "end_page": 15
+        },
+        {
+          "label": "single_line_diagram page 16",
+          "start_page": 16,
+          "end_page": 16
+        },
+        {
+          "label": "layout pages 17-30",
+          "start_page": 17,
+          "end_page": 30
+        },
+        {
+          "label": "single_line_diagram pages 31-32",
+          "start_page": 31,
+          "end_page": 32
+        },
+        {
+          "label": "plant_metadata page 33",
+          "start_page": 33,
+          "end_page": 33
+        },
+        {
+          "label": "single_line_diagram pages 34-37",
+          "start_page": 34,
+          "end_page": 37
+        },
+        {
+          "label": "plant_metadata page 38",
+          "start_page": 38,
+          "end_page": 38
+        },
+        {
+          "label": "unknown pages 39-41",
+          "start_page": 39,
+          "end_page": 41
+        },
+        {
+          "label": "single_line_diagram page 42",
+          "start_page": 42,
+          "end_page": 42
+        },
+        {
+          "label": "plant_metadata page 43",
+          "start_page": 43,
+          "end_page": 43
+        }
+      ]
+    },
+    {
+      "file_name": "2017-04-26 60% PV DESIGN (Blattner).pdf",
+      "file_type": "pdf",
+      "targets": [
+        {
+          "label": "plant_metadata page 1",
+          "start_page": 1,
+          "end_page": 1
+        },
+        {
+          "label": "single_line_diagram pages 2-6",
+          "start_page": 2,
+          "end_page": 6
+        },
+        {
+          "label": "layout page 7",
+          "start_page": 7,
+          "end_page": 7
+        },
+        {
+          "label": "single_line_diagram page 8",
+          "start_page": 8,
+          "end_page": 8
+        },
+        {
+          "label": "layout pages 9-15",
+          "start_page": 9,
+          "end_page": 15
+        },
+        {
+          "label": "single_line_diagram page 16",
+          "start_page": 16,
+          "end_page": 16
+        },
+        {
+          "label": "layout pages 17-30",
+          "start_page": 17,
+          "end_page": 30
+        },
+        {
+          "label": "single_line_diagram page 31",
+          "start_page": 31,
+          "end_page": 31
+        },
+        {
+          "label": "plant_metadata page 32",
+          "start_page": 32,
+          "end_page": 32
+        },
+        {
+          "label": "single_line_diagram pages 33-36",
+          "start_page": 33,
+          "end_page": 36
+        },
+        {
+          "label": "plant_metadata page 37",
+          "start_page": 37,
+          "end_page": 37
+        },
+        {
+          "label": "single_line_diagram page 38",
+          "start_page": 38,
+          "end_page": 38
+        },
+        {
+          "label": "plant_metadata page 39",
+          "start_page": 39,
+          "end_page": 39
+        }
+      ]
+    },
+    {
+      "file_name": "SMA SC2xxx Modbus Manual.pdf",
+      "file_type": "pdf",
+      "targets": [
+        {
+          "label": "unknown pages 1-2",
+          "start_page": 1,
+          "end_page": 2
+        },
+        {
+          "label": "plant_metadata page 3",
+          "start_page": 3,
+          "end_page": 3
+        },
+        {
+          "label": "single_line_diagram page 4",
+          "start_page": 4,
+          "end_page": 4
+        },
+        {
+          "label": "equipment_schedule page 5",
+          "start_page": 5,
+          "end_page": 5
+        },
+        {
+          "label": "single_line_diagram page 6",
+          "start_page": 6,
+          "end_page": 6
+        },
+        {
+          "label": "plant_metadata page 7",
+          "start_page": 7,
+          "end_page": 7
+        },
+        {
+          "label": "single_line_diagram pages 8-12",
+          "start_page": 8,
+          "end_page": 12
+        },
+        {
+          "label": "unknown page 13",
+          "start_page": 13,
+          "end_page": 13
+        },
+        {
+          "label": "plant_metadata pages 14-16",
+          "start_page": 14,
+          "end_page": 16
+        },
+        {
+          "label": "single_line_diagram pages 17-19",
+          "start_page": 17,
+          "end_page": 19
+        },
+        {
+          "label": "plant_metadata page 20",
+          "start_page": 20,
+          "end_page": 20
+        },
+        {
+          "label": "single_line_diagram pages 21-24",
+          "start_page": 21,
+          "end_page": 24
+        },
+        {
+          "label": "plant_metadata page 25",
+          "start_page": 25,
+          "end_page": 25
+        },
+        {
+          "label": "layout page 26",
+          "start_page": 26,
+          "end_page": 26
+        },
+        {
+          "label": "equipment_schedule pages 27-28",
+          "start_page": 27,
+          "end_page": 28
+        },
+        {
+          "label": "layout pages 29-30",
+          "start_page": 29,
+          "end_page": 30
+        },
+        {
+          "label": "equipment_schedule page 31",
+          "start_page": 31,
+          "end_page": 31
+        },
+        {
+          "label": "unknown page 32",
+          "start_page": 32,
+          "end_page": 32
+        },
+        {
+          "label": "single_line_diagram pages 33-36",
+          "start_page": 33,
+          "end_page": 36
+        },
+        {
+          "label": "unknown pages 37-38",
+          "start_page": 37,
+          "end_page": 38
+        }
+      ]
+    },
+    {
+      "file_name": "A8810_Manual_3.pdf",
+      "file_type": "pdf",
+      "targets": [
+        {
+          "label": "equipment_schedule pages 1-2",
+          "start_page": 1,
+          "end_page": 2
+        },
+        {
+          "label": "plant_metadata pages 3-4",
+          "start_page": 3,
+          "end_page": 4
+        },
+        {
+          "label": "equipment_schedule pages 5-7",
+          "start_page": 5,
+          "end_page": 7
+        },
+        {
+          "label": "layout page 8",
+          "start_page": 8,
+          "end_page": 8
+        },
+        {
+          "label": "plant_metadata page 9",
+          "start_page": 9,
+          "end_page": 9
+        },
+        {
+          "label": "equipment_schedule page 10",
+          "start_page": 10,
+          "end_page": 10
+        },
+        {
+          "label": "plant_metadata pages 11-13",
+          "start_page": 11,
+          "end_page": 13
+        },
+        {
+          "label": "single_line_diagram page 14",
+          "start_page": 14,
+          "end_page": 14
+        },
+        {
+          "label": "plant_metadata pages 15-16",
+          "start_page": 15,
+          "end_page": 16
+        },
+        {
+          "label": "equipment_schedule page 17",
+          "start_page": 17,
+          "end_page": 17
+        },
+        {
+          "label": "plant_metadata page 18",
+          "start_page": 18,
+          "end_page": 18
+        },
+        {
+          "label": "layout page 19",
+          "start_page": 19,
+          "end_page": 19
+        },
+        {
+          "label": "plant_metadata page 20",
+          "start_page": 20,
+          "end_page": 20
+        },
+        {
+          "label": "equipment_schedule page 21",
+          "start_page": 21,
+          "end_page": 21
+        },
+        {
+          "label": "plant_metadata pages 22-27",
+          "start_page": 22,
+          "end_page": 27
+        },
+        {
+          "label": "layout pages 28-29",
+          "start_page": 28,
+          "end_page": 29
+        },
+        {
+          "label": "unknown page 30",
+          "start_page": 30,
+          "end_page": 30
+        }
+      ]
+    },
+    {
+      "file_name": "PVmet-150 Instructions Rev3.pdf",
+      "file_type": "pdf",
+      "targets": [
+        {
+          "label": "unknown pages 1-2",
+          "start_page": 1,
+          "end_page": 2
+        },
+        {
+          "label": "plant_metadata page 3",
+          "start_page": 3,
+          "end_page": 3
+        },
+        {
+          "label": "single_line_diagram page 4",
+          "start_page": 4,
+          "end_page": 4
+        },
+        {
+          "label": "equipment_schedule page 5",
+          "start_page": 5,
+          "end_page": 5
+        },
+        {
+          "label": "layout page 6",
+          "start_page": 6,
+          "end_page": 6
+        },
+        {
+          "label": "single_line_diagram pages 7-8",
+          "start_page": 7,
+          "end_page": 8
+        },
+        {
+          "label": "plant_metadata page 9",
+          "start_page": 9,
+          "end_page": 9
+        },
+        {
+          "label": "equipment_schedule pages 10-12",
+          "start_page": 10,
+          "end_page": 12
+        },
+        {
+          "label": "single_line_diagram page 13",
+          "start_page": 13,
+          "end_page": 13
+        },
+        {
+          "label": "plant_metadata pages 14-15",
+          "start_page": 14,
+          "end_page": 15
+        },
+        {
+          "label": "unknown pages 16-17",
+          "start_page": 16,
+          "end_page": 17
+        },
+        {
+          "label": "equipment_schedule page 18",
+          "start_page": 18,
+          "end_page": 18
+        },
+        {
+          "label": "layout page 19",
+          "start_page": 19,
+          "end_page": 19
+        },
+        {
+          "label": "single_line_diagram page 20",
+          "start_page": 20,
+          "end_page": 20
+        },
+        {
+          "label": "equipment_schedule page 21",
+          "start_page": 21,
+          "end_page": 21
+        }
+      ]
+    },
+    {
+      "file_name": "RainWise - PVmet 330 - Instructions Rev.pdf",
+      "file_type": "pdf",
+      "targets": [
+        {
+          "label": "unknown pages 1-2",
+          "start_page": 1,
+          "end_page": 2
+        },
+        {
+          "label": "plant_metadata pages 3-4",
+          "start_page": 3,
+          "end_page": 4
+        },
+        {
+          "label": "single_line_diagram page 5",
+          "start_page": 5,
+          "end_page": 5
+        },
+        {
+          "label": "layout page 6",
+          "start_page": 6,
+          "end_page": 6
+        },
+        {
+          "label": "equipment_schedule page 7",
+          "start_page": 7,
+          "end_page": 7
+        },
+        {
+          "label": "plant_metadata page 8",
+          "start_page": 8,
+          "end_page": 8
+        },
+        {
+          "label": "unknown page 9",
+          "start_page": 9,
+          "end_page": 9
+        },
+        {
+          "label": "layout page 10",
+          "start_page": 10,
+          "end_page": 10
+        },
+        {
+          "label": "single_line_diagram pages 11-12",
+          "start_page": 11,
+          "end_page": 12
+        },
+        {
+          "label": "equipment_schedule page 13",
+          "start_page": 13,
+          "end_page": 13
+        }
+      ]
+    },
+    {
+      "file_name": "1MMC-10058-AXX-S002 - Power Plant Controller Rev2.pdf",
+      "file_type": "pdf",
+      "targets": [
+        {
+          "label": "plant_metadata page 1",
+          "start_page": 1,
+          "end_page": 1
+        },
+        {
+          "label": "equipment_schedule page 2",
+          "start_page": 2,
+          "end_page": 2
+        },
+        {
+          "label": "plant_metadata page 3",
+          "start_page": 3,
+          "end_page": 3
+        },
+        {
+          "label": "single_line_diagram page 4",
+          "start_page": 4,
+          "end_page": 4
+        },
+        {
+          "label": "plant_metadata page 5",
+          "start_page": 5,
+          "end_page": 5
+        },
+        {
+          "label": "single_line_diagram pages 6-7",
+          "start_page": 6,
+          "end_page": 7
+        },
+        {
+          "label": "plant_metadata page 8",
+          "start_page": 8,
+          "end_page": 8
+        },
+        {
+          "label": "single_line_diagram page 9",
+          "start_page": 9,
+          "end_page": 9
+        },
+        {
+          "label": "plant_metadata page 10",
+          "start_page": 10,
+          "end_page": 10
+        }
+      ]
+    },
+    {
+      "file_name": "1MMC-10058-AXX-L001-rev4 Network Layout.pdf",
+      "file_type": "pdf",
+      "targets": [
+        {
+          "label": "layout page 1",
+          "start_page": 1,
+          "end_page": 1
+        },
+        {
+          "label": "single_line_diagram page 2",
+          "start_page": 2,
+          "end_page": 2
+        },
+        {
+          "label": "plant_metadata pages 3-6",
+          "start_page": 3,
+          "end_page": 6
+        },
+        {
+          "label": "single_line_diagram page 7",
+          "start_page": 7,
+          "end_page": 7
+        }
+      ]
+    },
+    {
+      "file_name": "ABB Register Map.pdf",
+      "file_type": "pdf",
+      "targets": [
+        {
+          "label": "plant_metadata page 1",
+          "start_page": 1,
+          "end_page": 1
+        }
+      ]
+    },
+    {
+      "file_name": "MS3_August1_August21.xlsx",
+      "file_type": "xlsx",
+      "targets": [
+        {
+          "label": "unknown",
+          "sheet_name": "08_01"
+        },
+        {
+          "label": "unknown",
+          "sheet_name": "08_02"
+        },
+        {
+          "label": "unknown",
+          "sheet_name": "08_03"
+        },
+        {
+          "label": "unknown",
+          "sheet_name": "08_04"
+        },
+        {
+          "label": "unknown",
+          "sheet_name": "08_05"
+        },
+        {
+          "label": "unknown",
+          "sheet_name": "08_06"
+        },
+        {
+          "label": "unknown",
+          "sheet_name": "08_07"
+        },
+        {
+          "label": "unknown",
+          "sheet_name": "08_08"
+        },
+        {
+          "label": "unknown",
+          "sheet_name": "08_09"
+        },
+        {
+          "label": "unknown",
+          "sheet_name": "08_10"
+        },
+        {
+          "label": "unknown",
+          "sheet_name": "08_11"
+        },
+        {
+          "label": "unknown",
+          "sheet_name": "08_12"
+        },
+        {
+          "label": "unknown",
+          "sheet_name": "08_13"
+        },
+        {
+          "label": "unknown",
+          "sheet_name": "08_14"
+        },
+        {
+          "label": "unknown",
+          "sheet_name": "08_15"
+        },
+        {
+          "label": "unknown",
+          "sheet_name": "08_16"
+        },
+        {
+          "label": "unknown",
+          "sheet_name": "08_17"
+        },
+        {
+          "label": "unknown",
+          "sheet_name": "08_18"
+        },
+        {
+          "label": "unknown",
+          "sheet_name": "08_19"
+        },
+        {
+          "label": "unknown",
+          "sheet_name": "08_20"
+        },
+        {
+          "label": "unknown",
+          "sheet_name": "08_21"
+        }
+      ]
+    },
+    {
+      "file_name": "170926_8760_MS3_10272017 (2).xlsx",
+      "file_type": "xlsx",
+      "targets": [
+        {
+          "label": "unknown",
+          "sheet_name": "8760"
+        }
+      ]
+    },
+    {
+      "file_name": "Copy of Exported_IX_AI_Rev2 with highlited items..xlsx",
+      "file_type": "xlsx",
+      "targets": [
+        {
+          "label": "unknown",
+          "sheet_name": "Sheet1"
+        }
+      ]
+    },
+    {
+      "file_name": "Mississippi_DNP_Map_Rev8.xlsx",
+      "file_type": "xlsx",
+      "targets": [
+        {
+          "label": "plant_metadata",
+          "sheet_name": "Site SCADA DNP"
+        },
+        {
+          "label": "unknown",
+          "sheet_name": "Revision History"
+        }
+      ]
+    },
+    {
+      "file_name": "Origis MS3 - IP Addresses rev2.xlsx",
+      "file_type": "xlsx",
+      "targets": [
+        {
+          "label": "inverter_list",
+          "sheet_name": "Sheet1"
+        }
+      ]
+    },
+    {
+      "file_name": "CBX Landings inside inverter.HO.xlsx",
+      "file_type": "xlsx",
+      "targets": [
+        {
+          "label": "unknown",
+          "sheet_name": "Sheet1"
+        },
+        {
+          "label": "string_table",
+          "sheet_name": "Sheet2"
+        }
+      ]
+    },
+    {
+      "file_name": "MS3 PF Mapping_issues.xlsx",
+      "file_type": "xlsx",
+      "targets": [
+        {
+          "label": "unknown",
+          "sheet_name": "Sheet1"
+        }
+      ]
+    }
+  ]
+}

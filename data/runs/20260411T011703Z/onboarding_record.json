@@ -1,0 +1,387 @@
+{
+  "project_name": "JACOB GILMORE AND",
+  "plant_type": "solar",
+  "source_files": [
+    "User Manual_SC1850-US, SC2200-US, 2500-EV-US-BA-A1-en-V20.pdf",
+    "1MMC-10058-AXX-M001 - Sumrall User Manual -Rev1.pdf",
+    "MS-80Manual20160926V2.pdf",
+    "17024 - MS 3 - AS-BUILT - 20171206.pdf",
+    "2017-04-26 60% PV DESIGN (Blattner).pdf",
+    "SMA SC2xxx Modbus Manual.pdf",
+    "A8810_Manual_3.pdf",
+    "PVmet-150 Instructions Rev3.pdf",
+    "RainWise - PVmet 330 - Instructions Rev.pdf",
+    "1MMC-10058-AXX-S002 - Power Plant Controller Rev2.pdf",
+    "1MMC-10058-AXX-L001-rev4 Network Layout.pdf",
+    "ABB Register Map.pdf",
+    "MS3_August1_August21.xlsx",
+    "170926_8760_MS3_10272017 (2).xlsx",
+    "Copy of Exported_IX_AI_Rev2 with highlited items..xlsx",
+    "Mississippi_DNP_Map_Rev8.xlsx",
+    "Origis MS3 - IP Addresses rev2.xlsx",
+    "CBX Landings inside inverter.HO.xlsx",
+    "MS3 PF Mapping_issues.xlsx"
+  ],
+  "fields": [
+    {
+      "name": "project_name",
+      "raw_value": "JACOB GILMORE AND",
+      "normalized_value": "JACOB GILMORE AND",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "file_name": "2017-04-26 60% PV DESIGN (Blattner).pdf",
+          "page": null,
+          "sheet": null,
+          "section": "site_fields",
+          "snippet": "PlantName: JACOB GILMORE AND"
+        }
+      ],
+      "status": "conflicting"
+    },
+    {
+      "name": "site_name",
+      "raw_value": "JACOB GILMORE AND",
+      "normalized_value": "JACOB GILMORE AND",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "file_name": "2017-04-26 60% PV DESIGN (Blattner).pdf",
+          "page": null,
+          "sheet": null,
+          "section": "site_fields",
+          "snippet": "PlantName: JACOB GILMORE AND"
+        }
+      ],
+      "status": "conflicting"
+    },
+    {
+      "name": "dc_capacity_kw",
+      "raw_value": 69280.0,
+      "normalized_value": 69280.0,
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "file_name": "2017-04-26 60% PV DESIGN (Blattner).pdf",
+          "page": null,
+          "sheet": null,
+          "section": "site_fields",
+          "snippet": "DC_Capacity_kW: 69280.0"
+        }
+      ],
+      "status": "valid"
+    },
+    {
+      "name": "address",
+      "raw_value": "392 COUNTY ROAD 50, AVON, MN",
+      "normalized_value": "392 COUNTY ROAD 50, AVON, MN",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "file_name": "2017-04-26 60% PV DESIGN (Blattner).pdf",
+          "page": null,
+          "sheet": null,
+          "section": "site_fields",
+          "snippet": "Address: 392 COUNTY ROAD 50, AVON, MN"
+        }
+      ],
+      "status": "conflicting"
+    },
+    {
+      "name": "module_manufacturer",
+      "raw_value": "PIGTAIL",
+      "normalized_value": "PIGTAIL",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "file_name": "2017-04-26 60% PV DESIGN (Blattner).pdf",
+          "page": null,
+          "sheet": null,
+          "section": "site_fields",
+          "snippet": "ModuleMake: PIGTAIL"
+        }
+      ],
+      "status": "conflicting"
+    },
+    {
+      "name": "module_model",
+      "raw_value": "TERMINAL",
+      "normalized_value": "TERMINAL",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "file_name": "2017-04-26 60% PV DESIGN (Blattner).pdf",
+          "page": null,
+          "sheet": null,
+          "section": "site_fields",
+          "snippet": "ModuleModel: TERMINAL"
+        }
+      ],
+      "status": "conflicting"
+    },
+    {
+      "name": "timezone",
+      "raw_value": "America/Chicago",
+      "normalized_value": "America/Chicago",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "file_name": "2017-04-26 60% PV DESIGN (Blattner).pdf",
+          "page": null,
+          "sheet": null,
+          "section": "site_fields",
+          "snippet": "392 COUNTY ROAD 50, AVON, MN"
+        }
+      ],
+      "status": "valid"
+    },
+    {
+      "name": "ac_capacity_kw",
+      "raw_value": 52000.0,
+      "normalized_value": 52000.0,
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "file_name": "2017-04-26 60% PV DESIGN (Blattner).pdf",
+          "page": null,
+          "sheet": null,
+          "section": "site_fields",
+          "snippet": "Direct AC_Capacity_kW: 52000.0"
+        }
+      ],
+      "status": "valid"
+    },
+    {
+      "name": "project_name",
+      "raw_value": "Introduction",
+      "normalized_value": "Introduction",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "file_name": "PVmet-150 Instructions Rev3.pdf",
+          "page": null,
+          "sheet": null,
+          "section": "site_fields",
+          "snippet": "PlantName: Introduction"
+        }
+      ],
+      "status": "conflicting"
+    },
+    {
+      "name": "site_name",
+      "raw_value": "Introduction",
+      "normalized_value": "Introduction",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "file_name": "PVmet-150 Instructions Rev3.pdf",
+          "page": null,
+          "sheet": null,
+          "section": "site_fields",
+          "snippet": "PlantName: Introduction"
+        }
+      ],
+      "status": "conflicting"
+    },
+    {
+      "name": "address",
+      "raw_value": "3020 - Flat Roof Mount, If any of the components are missing, RainWise",
+      "normalized_value": "3020 - Flat Roof Mount, If any of the components are missing, RainWise",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "file_name": "PVmet-150 Instructions Rev3.pdf",
+          "page": null,
+          "sheet": null,
+          "section": "site_fields",
+          "snippet": "Address: 3020 - Flat Roof Mount, If any of the components are missing, RainWise"
+        }
+      ],
+      "status": "conflicting"
+    },
+    {
+      "name": "site_location",
+      "raw_value": "FLAT ROOF MOUNT, IF",
+      "normalized_value": "FLAT ROOF MOUNT, IF",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "file_name": "PVmet-150 Instructions Rev3.pdf",
+          "page": null,
+          "sheet": null,
+          "section": "site_fields",
+          "snippet": "site_location: FLAT ROOF MOUNT, IF"
+        }
+      ],
+      "status": "conflicting"
+    },
+    {
+      "name": "module_manufacturer",
+      "raw_value": "TEMPERATURE",
+      "normalized_value": "TEMPERATURE",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "file_name": "PVmet-150 Instructions Rev3.pdf",
+          "page": null,
+          "sheet": null,
+          "section": "site_fields",
+          "snippet": "ModuleMake: TEMPERATURE"
+        }
+      ],
+      "status": "conflicting"
+    },
+    {
+      "name": "module_model",
+      "raw_value": "MODEL",
+      "normalized_value": "MODEL",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "file_name": "PVmet-150 Instructions Rev3.pdf",
+          "page": null,
+          "sheet": null,
+          "section": "site_fields",
+          "snippet": "ModuleModel: MODEL"
+        }
+      ],
+      "status": "conflicting"
+    },
+    {
+      "name": "address",
+      "raw_value": "330 sensor, assembly, which",
+      "normalized_value": "330 sensor, assembly, which",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "file_name": "RainWise - PVmet 330 - Instructions Rev.pdf",
+          "page": null,
+          "sheet": null,
+          "section": "site_fields",
+          "snippet": "Address: 330 sensor, assembly, which"
+        }
+      ],
+      "status": "conflicting"
+    },
+    {
+      "name": "site_location",
+      "raw_value": "SENSOR, ASSEMBLY",
+      "normalized_value": "SENSOR, ASSEMBLY",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "file_name": "RainWise - PVmet 330 - Instructions Rev.pdf",
+          "page": null,
+          "sheet": null,
+          "section": "site_fields",
+          "snippet": "site_location: SENSOR, ASSEMBLY"
+        }
+      ],
+      "status": "conflicting"
+    },
+    {
+      "name": "project_name",
+      "raw_value": "Anemometer",
+      "normalized_value": "Anemometer",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "file_name": "RainWise - PVmet 330 - Instructions Rev.pdf",
+          "page": null,
+          "sheet": null,
+          "section": "site_fields",
+          "snippet": "PlantName: Anemometer"
+        }
+      ],
+      "status": "conflicting"
+    },
+    {
+      "name": "site_name",
+      "raw_value": "Anemometer",
+      "normalized_value": "Anemometer",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "file_name": "RainWise - PVmet 330 - Instructions Rev.pdf",
+          "page": null,
+          "sheet": null,
+          "section": "site_fields",
+          "snippet": "PlantName: Anemometer"
+        }
+      ],
+      "status": "conflicting"
+    },
+    {
+      "name": "plant_type",
+      "raw_value": "solar",
+      "normalized_value": "solar",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "file_name": "User Manual_SC1850-US, SC2200-US, 2500-EV-US-BA-A1-en-V20.pdf",
+          "page": null,
+          "sheet": null,
+          "section": "derived",
+          "snippet": "Derived plant type: solar"
+        }
+      ],
+      "status": "valid"
+    },
+    {
+      "name": "energy_type",
+      "raw_value": "solar",
+      "normalized_value": "solar",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "file_name": "User Manual_SC1850-US, SC2200-US, 2500-EV-US-BA-A1-en-V20.pdf",
+          "page": null,
+          "sheet": null,
+          "section": "derived",
+          "snippet": "Derived energy type: solar"
+        }
+      ],
+      "status": "valid"
+    }
+  ],
+  "equipment": [],
+  "validation_issues": [
+    {
+      "field_name": "project_name",
+      "issue_type": "conflict",
+      "message": "Field 'project_name' has multiple candidate values and needs review.",
+      "severity": "high"
+    },
+    {
+      "field_name": "site_name",
+      "issue_type": "conflict",
+      "message": "Field 'site_name' has multiple candidate values and needs review.",
+      "severity": "high"
+    },
+    {
+      "field_name": "address",
+      "issue_type": "conflict",
+      "message": "Field 'address' has multiple candidate values and needs review.",
+      "severity": "high"
+    },
+    {
+      "field_name": "module_manufacturer",
+      "issue_type": "conflict",
+      "message": "Field 'module_manufacturer' has multiple candidate values and needs review.",
+      "severity": "high"
+    },
+    {
+      "field_name": "module_model",
+      "issue_type": "conflict",
+      "message": "Field 'module_model' has multiple candidate values and needs review.",
+      "severity": "high"
+    },
+    {
+      "field_name": "site_location",
+      "issue_type": "conflict",
+      "message": "Field 'site_location' has multiple candidate values and needs review.",
+      "severity": "high"
+    }
+  ],
+  "readiness_status": "needs_review"
+}

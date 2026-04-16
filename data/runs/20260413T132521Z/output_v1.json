@@ -1,0 +1,4198 @@
+{
+  "schema_version": "1.0.0",
+  "run": {
+    "run_id": "run-20260413-132535",
+    "created_utc": "2026-04-13T13:25:35.853841+00:00",
+    "environment": "dev",
+    "request": {
+      "customer_name": null,
+      "portfolio_name": null,
+      "source_files": [
+        {
+          "file_id": "f0",
+          "file_name": "file_0",
+          "file_type": "other",
+          "source_uri": null,
+          "sha256": null,
+          "pages": null
+        },
+        {
+          "file_id": "f1",
+          "file_name": "file_1",
+          "file_type": "other",
+          "source_uri": null,
+          "sha256": null,
+          "pages": null
+        },
+        {
+          "file_id": "f2",
+          "file_name": "file_2",
+          "file_type": "other",
+          "source_uri": null,
+          "sha256": null,
+          "pages": null
+        },
+        {
+          "file_id": "f3",
+          "file_name": "file_3",
+          "file_type": "other",
+          "source_uri": null,
+          "sha256": null,
+          "pages": null
+        },
+        {
+          "file_id": "f4",
+          "file_name": "file_4",
+          "file_type": "other",
+          "source_uri": null,
+          "sha256": null,
+          "pages": null
+        },
+        {
+          "file_id": "f5",
+          "file_name": "file_5",
+          "file_type": "other",
+          "source_uri": null,
+          "sha256": null,
+          "pages": null
+        },
+        {
+          "file_id": "f6",
+          "file_name": "file_6",
+          "file_type": "other",
+          "source_uri": null,
+          "sha256": null,
+          "pages": null
+        },
+        {
+          "file_id": "f7",
+          "file_name": "file_7",
+          "file_type": "other",
+          "source_uri": null,
+          "sha256": null,
+          "pages": null
+        },
+        {
+          "file_id": "f8",
+          "file_name": "file_8",
+          "file_type": "other",
+          "source_uri": null,
+          "sha256": null,
+          "pages": null
+        },
+        {
+          "file_id": "f9",
+          "file_name": "file_9",
+          "file_type": "other",
+          "source_uri": null,
+          "sha256": null,
+          "pages": null
+        },
+        {
+          "file_id": "f10",
+          "file_name": "file_10",
+          "file_type": "other",
+          "source_uri": null,
+          "sha256": null,
+          "pages": null
+        },
+        {
+          "file_id": "f11",
+          "file_name": "file_11",
+          "file_type": "other",
+          "source_uri": null,
+          "sha256": null,
+          "pages": null
+        },
+        {
+          "file_id": "f12",
+          "file_name": "file_12",
+          "file_type": "other",
+          "source_uri": null,
+          "sha256": null,
+          "pages": null
+        },
+        {
+          "file_id": "f13",
+          "file_name": "file_13",
+          "file_type": "other",
+          "source_uri": null,
+          "sha256": null,
+          "pages": null
+        },
+        {
+          "file_id": "f14",
+          "file_name": "file_14",
+          "file_type": "other",
+          "source_uri": null,
+          "sha256": null,
+          "pages": null
+        },
+        {
+          "file_id": "f15",
+          "file_name": "file_15",
+          "file_type": "other",
+          "source_uri": null,
+          "sha256": null,
+          "pages": null
+        },
+        {
+          "file_id": "f16",
+          "file_name": "file_16",
+          "file_type": "other",
+          "source_uri": null,
+          "sha256": null,
+          "pages": null
+        },
+        {
+          "file_id": "f17",
+          "file_name": "file_17",
+          "file_type": "other",
+          "source_uri": null,
+          "sha256": null,
+          "pages": null
+        },
+        {
+          "file_id": "f18",
+          "file_name": "file_18",
+          "file_type": "other",
+          "source_uri": null,
+          "sha256": null,
+          "pages": null
+        }
+      ]
+    }
+  },
+  "overview": {
+    "plants": [
+      {
+        "plant_id": "plant_0",
+        "plant_name": null,
+        "plant_type": "unknown",
+        "location": null,
+        "capacity": {
+          "dc_kw": null,
+          "ac_kw": null,
+          "derivation": "unknown"
+        },
+        "key_dates": null,
+        "metadata": [
+          {
+            "field": "plant_type",
+            "value": "unknown",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_1",
+        "plant_name": null,
+        "plant_type": "unknown",
+        "location": null,
+        "capacity": {
+          "dc_kw": null,
+          "ac_kw": null,
+          "derivation": "unknown"
+        },
+        "key_dates": null,
+        "metadata": [
+          {
+            "field": "plant_type",
+            "value": "unknown",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_2",
+        "plant_name": null,
+        "plant_type": "unknown",
+        "location": null,
+        "capacity": {
+          "dc_kw": null,
+          "ac_kw": null,
+          "derivation": "unknown"
+        },
+        "key_dates": null,
+        "metadata": [
+          {
+            "field": "plant_type",
+            "value": "unknown",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_3",
+        "plant_name": null,
+        "plant_type": "unknown",
+        "location": null,
+        "capacity": {
+          "dc_kw": null,
+          "ac_kw": null,
+          "derivation": "unknown"
+        },
+        "key_dates": null,
+        "metadata": [
+          {
+            "field": "plant_type",
+            "value": "unknown",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_4",
+        "plant_name": "JACOB GILMORE AND",
+        "plant_type": "unknown",
+        "location": null,
+        "capacity": {
+          "dc_kw": 69280.0,
+          "ac_kw": 52000.0,
+          "derivation": "unknown"
+        },
+        "key_dates": null,
+        "metadata": [
+          {
+            "field": "PlantName",
+            "value": "JACOB GILMORE AND",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.6,
+            "evidence": [
+              {
+                "file_id": "f4",
+                "page": null,
+                "source_type": "text",
+                "snippet": "TRINA SOLAR TSM-DE14A(II)",
+                "bbox": null
+              }
+            ]
+          },
+          {
+            "field": "AC_Capacity_kW",
+            "value": 52000.0,
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": [
+              {
+                "file_id": "f4",
+                "page": null,
+                "source_type": "text",
+                "snippet": "",
+                "bbox": null
+              }
+            ]
+          },
+          {
+            "field": "DC_Capacity_kW",
+            "value": 69280.0,
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": [
+              {
+                "file_id": "f4",
+                "page": null,
+                "source_type": "text",
+                "snippet": "",
+                "bbox": null
+              }
+            ]
+          },
+          {
+            "field": "address",
+            "value": "392 COUNTY ROAD 50, AVON, MN",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          },
+          {
+            "field": "ModuleCount",
+            "value": 20,
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          },
+          {
+            "field": "site_location",
+            "value": "AVON, MN",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          },
+          {
+            "field": "ModuleMake",
+            "value": "PIGTAIL",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          },
+          {
+            "field": "ModuleModel",
+            "value": "TERMINAL",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          },
+          {
+            "field": "plant_name",
+            "value": "JACOB GILMORE AND",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          },
+          {
+            "field": "plant_type",
+            "value": "unknown",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_5",
+        "plant_name": null,
+        "plant_type": "unknown",
+        "location": null,
+        "capacity": {
+          "dc_kw": null,
+          "ac_kw": null,
+          "derivation": "unknown"
+        },
+        "key_dates": null,
+        "metadata": [
+          {
+            "field": "plant_type",
+            "value": "unknown",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_6",
+        "plant_name": null,
+        "plant_type": "unknown",
+        "location": null,
+        "capacity": {
+          "dc_kw": null,
+          "ac_kw": null,
+          "derivation": "unknown"
+        },
+        "key_dates": null,
+        "metadata": [
+          {
+            "field": "plant_type",
+            "value": "unknown",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_7",
+        "plant_name": "Introduction",
+        "plant_type": "unknown",
+        "location": null,
+        "capacity": {
+          "dc_kw": null,
+          "ac_kw": null,
+          "derivation": "unknown"
+        },
+        "key_dates": null,
+        "metadata": [
+          {
+            "field": "PlantName",
+            "value": "Introduction",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.6,
+            "evidence": [
+              {
+                "file_id": "f7",
+                "page": null,
+                "source_type": "text",
+                "snippet": "Contact Information",
+                "bbox": null
+              }
+            ]
+          },
+          {
+            "field": "address",
+            "value": "3020 - Flat Roof Mount, If any of the components are missing, RainWise",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          },
+          {
+            "field": "ModuleCount",
+            "value": 150,
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          },
+          {
+            "field": "site_location",
+            "value": "FLAT ROOF MOUNT, IF",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          },
+          {
+            "field": "ModuleMake",
+            "value": "TEMPERATURE",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          },
+          {
+            "field": "ModuleModel",
+            "value": "MODEL",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          },
+          {
+            "field": "plant_name",
+            "value": "Introduction",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          },
+          {
+            "field": "plant_type",
+            "value": "unknown",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_8",
+        "plant_name": "Anemometer",
+        "plant_type": "unknown",
+        "location": null,
+        "capacity": {
+          "dc_kw": null,
+          "ac_kw": null,
+          "derivation": "unknown"
+        },
+        "key_dates": null,
+        "metadata": [
+          {
+            "field": "address",
+            "value": "330 sensor, assembly, which",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          },
+          {
+            "field": "site_location",
+            "value": "SENSOR, ASSEMBLY",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          },
+          {
+            "field": "PlantName",
+            "value": "Anemometer",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.6,
+            "evidence": [
+              {
+                "file_id": "f8",
+                "page": null,
+                "source_type": "text",
+                "snippet": "Contact Information",
+                "bbox": null
+              }
+            ]
+          },
+          {
+            "field": "ModuleCount",
+            "value": 12,
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          },
+          {
+            "field": "plant_name",
+            "value": "Anemometer",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          },
+          {
+            "field": "plant_type",
+            "value": "unknown",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_9",
+        "plant_name": null,
+        "plant_type": "unknown",
+        "location": null,
+        "capacity": {
+          "dc_kw": null,
+          "ac_kw": null,
+          "derivation": "unknown"
+        },
+        "key_dates": null,
+        "metadata": [
+          {
+            "field": "plant_type",
+            "value": "unknown",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_10",
+        "plant_name": null,
+        "plant_type": "unknown",
+        "location": null,
+        "capacity": {
+          "dc_kw": null,
+          "ac_kw": null,
+          "derivation": "unknown"
+        },
+        "key_dates": null,
+        "metadata": [
+          {
+            "field": "plant_type",
+            "value": "unknown",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_11",
+        "plant_name": null,
+        "plant_type": "unknown",
+        "location": null,
+        "capacity": {
+          "dc_kw": null,
+          "ac_kw": null,
+          "derivation": "unknown"
+        },
+        "key_dates": null,
+        "metadata": [
+          {
+            "field": "plant_type",
+            "value": "unknown",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_12",
+        "plant_name": null,
+        "plant_type": "unknown",
+        "location": null,
+        "capacity": {
+          "dc_kw": null,
+          "ac_kw": null,
+          "derivation": "unknown"
+        },
+        "key_dates": null,
+        "metadata": [
+          {
+            "field": "plant_type",
+            "value": "unknown",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_13",
+        "plant_name": null,
+        "plant_type": "unknown",
+        "location": null,
+        "capacity": {
+          "dc_kw": null,
+          "ac_kw": null,
+          "derivation": "unknown"
+        },
+        "key_dates": null,
+        "metadata": [
+          {
+            "field": "plant_type",
+            "value": "unknown",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_14",
+        "plant_name": null,
+        "plant_type": "unknown",
+        "location": null,
+        "capacity": {
+          "dc_kw": null,
+          "ac_kw": null,
+          "derivation": "unknown"
+        },
+        "key_dates": null,
+        "metadata": [
+          {
+            "field": "plant_type",
+            "value": "unknown",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_15",
+        "plant_name": null,
+        "plant_type": "unknown",
+        "location": null,
+        "capacity": {
+          "dc_kw": null,
+          "ac_kw": null,
+          "derivation": "unknown"
+        },
+        "key_dates": null,
+        "metadata": [
+          {
+            "field": "plant_type",
+            "value": "unknown",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_16",
+        "plant_name": null,
+        "plant_type": "unknown",
+        "location": null,
+        "capacity": {
+          "dc_kw": null,
+          "ac_kw": null,
+          "derivation": "unknown"
+        },
+        "key_dates": null,
+        "metadata": [
+          {
+            "field": "plant_type",
+            "value": "unknown",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_17",
+        "plant_name": null,
+        "plant_type": "unknown",
+        "location": null,
+        "capacity": {
+          "dc_kw": null,
+          "ac_kw": null,
+          "derivation": "unknown"
+        },
+        "key_dates": null,
+        "metadata": [
+          {
+            "field": "plant_type",
+            "value": "unknown",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_18",
+        "plant_name": null,
+        "plant_type": "unknown",
+        "location": null,
+        "capacity": {
+          "dc_kw": null,
+          "ac_kw": null,
+          "derivation": "unknown"
+        },
+        "key_dates": null,
+        "metadata": [
+          {
+            "field": "plant_type",
+            "value": "unknown",
+            "unit": null,
+            "normalized_value": null,
+            "confidence": 0.9,
+            "evidence": []
+          }
+        ]
+      }
+    ]
+  },
+  "devices": {
+    "plants": [
+      {
+        "plant_id": "plant_0",
+        "device_tree": [
+          {
+            "node_id": "plant_0:root",
+            "node_type": "plant",
+            "name": "plant_0",
+            "parent_node_id": null,
+            "attributes": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_1",
+        "device_tree": [
+          {
+            "node_id": "plant_1:root",
+            "node_type": "plant",
+            "name": "plant_1",
+            "parent_node_id": null,
+            "attributes": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_2",
+        "device_tree": [
+          {
+            "node_id": "plant_2:root",
+            "node_type": "plant",
+            "name": "plant_2",
+            "parent_node_id": null,
+            "attributes": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_3",
+        "device_tree": [
+          {
+            "node_id": "plant_3:root",
+            "node_type": "plant",
+            "name": "plant_3",
+            "parent_node_id": null,
+            "attributes": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_4",
+        "device_tree": [
+          {
+            "node_id": "plant_4:root",
+            "node_type": "plant",
+            "name": "JACOB GILMORE AND",
+            "parent_node_id": null,
+            "attributes": [],
+            "children": [
+              "plant_4:inv_1",
+              "plant_4:inv_2",
+              "plant_4:inv_3",
+              "plant_4:inv_4",
+              "plant_4:inv_5",
+              "plant_4:inv_6",
+              "plant_4:inv_7",
+              "plant_4:inv_8",
+              "plant_4:inv_9",
+              "plant_4:inv_10",
+              "plant_4:inv_11",
+              "plant_4:inv_12",
+              "plant_4:inv_13",
+              "plant_4:inv_14",
+              "plant_4:inv_15",
+              "plant_4:inv_16",
+              "plant_4:inv_17",
+              "plant_4:inv_18",
+              "plant_4:inv_19",
+              "plant_4:inv_20",
+              "plant_4:inv_21",
+              "plant_4:inv_22",
+              "plant_4:inv_23",
+              "plant_4:inv_24",
+              "plant_4:meter_1",
+              "plant_4:meter_2",
+              "plant_4:meter_3",
+              "plant_4:tx_1",
+              "plant_4:combiner_real_1",
+              "plant_4:tracker_1"
+            ]
+          },
+          {
+            "node_id": "plant_4:inv_1",
+            "node_type": "inverter",
+            "name": "Inverter 1",
+            "parent_node_id": "plant_4:root",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Inverter 1",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "manufacturer",
+                "value": "SMA",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              },
+              {
+                "field": "model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "quantity",
+                "value": 1,
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "inverter_model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              }
+            ],
+            "children": [
+              "plant_4:combiner_1"
+            ]
+          },
+          {
+            "node_id": "plant_4:combiner_1",
+            "node_type": "combiner",
+            "name": "Combiner 1",
+            "parent_node_id": "plant_4:inv_1",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Combiner 1",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              }
+            ],
+            "children": []
+          },
+          {
+            "node_id": "plant_4:inv_2",
+            "node_type": "inverter",
+            "name": "Inverter 2",
+            "parent_node_id": "plant_4:root",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Inverter 2",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "manufacturer",
+                "value": "SMA",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              },
+              {
+                "field": "model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "quantity",
+                "value": 1,
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "inverter_model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              }
+            ],
+            "children": [
+              "plant_4:combiner_2"
+            ]
+          },
+          {
+            "node_id": "plant_4:combiner_2",
+            "node_type": "combiner",
+            "name": "Combiner 2",
+            "parent_node_id": "plant_4:inv_2",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Combiner 2",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              }
+            ],
+            "children": []
+          },
+          {
+            "node_id": "plant_4:inv_3",
+            "node_type": "inverter",
+            "name": "Inverter 3",
+            "parent_node_id": "plant_4:root",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Inverter 3",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "manufacturer",
+                "value": "SMA",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              },
+              {
+                "field": "model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "quantity",
+                "value": 1,
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "inverter_model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              }
+            ],
+            "children": [
+              "plant_4:combiner_3"
+            ]
+          },
+          {
+            "node_id": "plant_4:combiner_3",
+            "node_type": "combiner",
+            "name": "Combiner 3",
+            "parent_node_id": "plant_4:inv_3",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Combiner 3",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              }
+            ],
+            "children": []
+          },
+          {
+            "node_id": "plant_4:inv_4",
+            "node_type": "inverter",
+            "name": "Inverter 4",
+            "parent_node_id": "plant_4:root",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Inverter 4",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "manufacturer",
+                "value": "SMA",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              },
+              {
+                "field": "model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "quantity",
+                "value": 1,
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "inverter_model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              }
+            ],
+            "children": [
+              "plant_4:combiner_4"
+            ]
+          },
+          {
+            "node_id": "plant_4:combiner_4",
+            "node_type": "combiner",
+            "name": "Combiner 4",
+            "parent_node_id": "plant_4:inv_4",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Combiner 4",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              }
+            ],
+            "children": []
+          },
+          {
+            "node_id": "plant_4:inv_5",
+            "node_type": "inverter",
+            "name": "Inverter 5",
+            "parent_node_id": "plant_4:root",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Inverter 5",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "manufacturer",
+                "value": "SMA",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              },
+              {
+                "field": "model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "quantity",
+                "value": 1,
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "inverter_model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              }
+            ],
+            "children": [
+              "plant_4:combiner_5"
+            ]
+          },
+          {
+            "node_id": "plant_4:combiner_5",
+            "node_type": "combiner",
+            "name": "Combiner 5",
+            "parent_node_id": "plant_4:inv_5",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Combiner 5",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              }
+            ],
+            "children": []
+          },
+          {
+            "node_id": "plant_4:inv_6",
+            "node_type": "inverter",
+            "name": "Inverter 6",
+            "parent_node_id": "plant_4:root",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Inverter 6",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "manufacturer",
+                "value": "SMA",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              },
+              {
+                "field": "model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "quantity",
+                "value": 1,
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "inverter_model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              }
+            ],
+            "children": [
+              "plant_4:combiner_6"
+            ]
+          },
+          {
+            "node_id": "plant_4:combiner_6",
+            "node_type": "combiner",
+            "name": "Combiner 6",
+            "parent_node_id": "plant_4:inv_6",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Combiner 6",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              }
+            ],
+            "children": []
+          },
+          {
+            "node_id": "plant_4:inv_7",
+            "node_type": "inverter",
+            "name": "Inverter 7",
+            "parent_node_id": "plant_4:root",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Inverter 7",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "manufacturer",
+                "value": "SMA",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              },
+              {
+                "field": "model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "quantity",
+                "value": 1,
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "inverter_model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              }
+            ],
+            "children": [
+              "plant_4:combiner_7"
+            ]
+          },
+          {
+            "node_id": "plant_4:combiner_7",
+            "node_type": "combiner",
+            "name": "Combiner 7",
+            "parent_node_id": "plant_4:inv_7",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Combiner 7",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              }
+            ],
+            "children": []
+          },
+          {
+            "node_id": "plant_4:inv_8",
+            "node_type": "inverter",
+            "name": "Inverter 8",
+            "parent_node_id": "plant_4:root",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Inverter 8",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "manufacturer",
+                "value": "SMA",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              },
+              {
+                "field": "model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "quantity",
+                "value": 1,
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "inverter_model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              }
+            ],
+            "children": [
+              "plant_4:combiner_8"
+            ]
+          },
+          {
+            "node_id": "plant_4:combiner_8",
+            "node_type": "combiner",
+            "name": "Combiner 8",
+            "parent_node_id": "plant_4:inv_8",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Combiner 8",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              }
+            ],
+            "children": []
+          },
+          {
+            "node_id": "plant_4:inv_9",
+            "node_type": "inverter",
+            "name": "Inverter 9",
+            "parent_node_id": "plant_4:root",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Inverter 9",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "manufacturer",
+                "value": "SMA",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              },
+              {
+                "field": "model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "quantity",
+                "value": 1,
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "inverter_model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              }
+            ],
+            "children": [
+              "plant_4:combiner_9"
+            ]
+          },
+          {
+            "node_id": "plant_4:combiner_9",
+            "node_type": "combiner",
+            "name": "Combiner 9",
+            "parent_node_id": "plant_4:inv_9",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Combiner 9",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              }
+            ],
+            "children": []
+          },
+          {
+            "node_id": "plant_4:inv_10",
+            "node_type": "inverter",
+            "name": "Inverter 10",
+            "parent_node_id": "plant_4:root",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Inverter 10",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "manufacturer",
+                "value": "SMA",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              },
+              {
+                "field": "model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "quantity",
+                "value": 1,
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "inverter_model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              }
+            ],
+            "children": [
+              "plant_4:combiner_10"
+            ]
+          },
+          {
+            "node_id": "plant_4:combiner_10",
+            "node_type": "combiner",
+            "name": "Combiner 10",
+            "parent_node_id": "plant_4:inv_10",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Combiner 10",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              }
+            ],
+            "children": []
+          },
+          {
+            "node_id": "plant_4:inv_11",
+            "node_type": "inverter",
+            "name": "Inverter 11",
+            "parent_node_id": "plant_4:root",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Inverter 11",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "manufacturer",
+                "value": "SMA",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              },
+              {
+                "field": "model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "quantity",
+                "value": 1,
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "inverter_model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              }
+            ],
+            "children": [
+              "plant_4:combiner_11"
+            ]
+          },
+          {
+            "node_id": "plant_4:combiner_11",
+            "node_type": "combiner",
+            "name": "Combiner 11",
+            "parent_node_id": "plant_4:inv_11",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Combiner 11",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              }
+            ],
+            "children": []
+          },
+          {
+            "node_id": "plant_4:inv_12",
+            "node_type": "inverter",
+            "name": "Inverter 12",
+            "parent_node_id": "plant_4:root",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Inverter 12",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "manufacturer",
+                "value": "SMA",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              },
+              {
+                "field": "model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "quantity",
+                "value": 1,
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "inverter_model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              }
+            ],
+            "children": [
+              "plant_4:combiner_12"
+            ]
+          },
+          {
+            "node_id": "plant_4:combiner_12",
+            "node_type": "combiner",
+            "name": "Combiner 12",
+            "parent_node_id": "plant_4:inv_12",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Combiner 12",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              }
+            ],
+            "children": []
+          },
+          {
+            "node_id": "plant_4:inv_13",
+            "node_type": "inverter",
+            "name": "Inverter 13",
+            "parent_node_id": "plant_4:root",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Inverter 13",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "manufacturer",
+                "value": "SMA",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              },
+              {
+                "field": "model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "quantity",
+                "value": 1,
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "inverter_model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              }
+            ],
+            "children": [
+              "plant_4:combiner_13"
+            ]
+          },
+          {
+            "node_id": "plant_4:combiner_13",
+            "node_type": "combiner",
+            "name": "Combiner 13",
+            "parent_node_id": "plant_4:inv_13",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Combiner 13",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              }
+            ],
+            "children": []
+          },
+          {
+            "node_id": "plant_4:inv_14",
+            "node_type": "inverter",
+            "name": "Inverter 14",
+            "parent_node_id": "plant_4:root",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Inverter 14",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "manufacturer",
+                "value": "SMA",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              },
+              {
+                "field": "model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "quantity",
+                "value": 1,
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "inverter_model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              }
+            ],
+            "children": [
+              "plant_4:combiner_14"
+            ]
+          },
+          {
+            "node_id": "plant_4:combiner_14",
+            "node_type": "combiner",
+            "name": "Combiner 14",
+            "parent_node_id": "plant_4:inv_14",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Combiner 14",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              }
+            ],
+            "children": []
+          },
+          {
+            "node_id": "plant_4:inv_15",
+            "node_type": "inverter",
+            "name": "Inverter 15",
+            "parent_node_id": "plant_4:root",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Inverter 15",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "manufacturer",
+                "value": "SMA",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              },
+              {
+                "field": "model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "quantity",
+                "value": 1,
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "inverter_model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              }
+            ],
+            "children": [
+              "plant_4:combiner_15"
+            ]
+          },
+          {
+            "node_id": "plant_4:combiner_15",
+            "node_type": "combiner",
+            "name": "Combiner 15",
+            "parent_node_id": "plant_4:inv_15",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Combiner 15",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              }
+            ],
+            "children": []
+          },
+          {
+            "node_id": "plant_4:inv_16",
+            "node_type": "inverter",
+            "name": "Inverter 16",
+            "parent_node_id": "plant_4:root",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Inverter 16",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "manufacturer",
+                "value": "SMA",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              },
+              {
+                "field": "model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "quantity",
+                "value": 1,
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "inverter_model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              }
+            ],
+            "children": [
+              "plant_4:combiner_16"
+            ]
+          },
+          {
+            "node_id": "plant_4:combiner_16",
+            "node_type": "combiner",
+            "name": "Combiner 16",
+            "parent_node_id": "plant_4:inv_16",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Combiner 16",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              }
+            ],
+            "children": []
+          },
+          {
+            "node_id": "plant_4:inv_17",
+            "node_type": "inverter",
+            "name": "Inverter 17",
+            "parent_node_id": "plant_4:root",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Inverter 17",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "manufacturer",
+                "value": "SMA",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              },
+              {
+                "field": "model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "quantity",
+                "value": 1,
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "inverter_model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              }
+            ],
+            "children": [
+              "plant_4:combiner_17"
+            ]
+          },
+          {
+            "node_id": "plant_4:combiner_17",
+            "node_type": "combiner",
+            "name": "Combiner 17",
+            "parent_node_id": "plant_4:inv_17",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Combiner 17",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              }
+            ],
+            "children": []
+          },
+          {
+            "node_id": "plant_4:inv_18",
+            "node_type": "inverter",
+            "name": "Inverter 18",
+            "parent_node_id": "plant_4:root",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Inverter 18",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "manufacturer",
+                "value": "SMA",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              },
+              {
+                "field": "model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "quantity",
+                "value": 1,
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "inverter_model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              }
+            ],
+            "children": [
+              "plant_4:combiner_18"
+            ]
+          },
+          {
+            "node_id": "plant_4:combiner_18",
+            "node_type": "combiner",
+            "name": "Combiner 18",
+            "parent_node_id": "plant_4:inv_18",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Combiner 18",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              }
+            ],
+            "children": []
+          },
+          {
+            "node_id": "plant_4:inv_19",
+            "node_type": "inverter",
+            "name": "Inverter 19",
+            "parent_node_id": "plant_4:root",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Inverter 19",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "manufacturer",
+                "value": "SMA",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              },
+              {
+                "field": "model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "quantity",
+                "value": 1,
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "inverter_model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              }
+            ],
+            "children": [
+              "plant_4:combiner_19"
+            ]
+          },
+          {
+            "node_id": "plant_4:combiner_19",
+            "node_type": "combiner",
+            "name": "Combiner 19",
+            "parent_node_id": "plant_4:inv_19",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Combiner 19",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              }
+            ],
+            "children": []
+          },
+          {
+            "node_id": "plant_4:inv_20",
+            "node_type": "inverter",
+            "name": "Inverter 20",
+            "parent_node_id": "plant_4:root",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Inverter 20",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "manufacturer",
+                "value": "SMA",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              },
+              {
+                "field": "model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "quantity",
+                "value": 1,
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "inverter_model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              }
+            ],
+            "children": [
+              "plant_4:combiner_20"
+            ]
+          },
+          {
+            "node_id": "plant_4:combiner_20",
+            "node_type": "combiner",
+            "name": "Combiner 20",
+            "parent_node_id": "plant_4:inv_20",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Combiner 20",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              }
+            ],
+            "children": []
+          },
+          {
+            "node_id": "plant_4:inv_21",
+            "node_type": "inverter",
+            "name": "Inverter 21",
+            "parent_node_id": "plant_4:root",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Inverter 21",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "manufacturer",
+                "value": "SMA",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              },
+              {
+                "field": "model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "quantity",
+                "value": 1,
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "inverter_model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              }
+            ],
+            "children": [
+              "plant_4:combiner_21"
+            ]
+          },
+          {
+            "node_id": "plant_4:combiner_21",
+            "node_type": "combiner",
+            "name": "Combiner 21",
+            "parent_node_id": "plant_4:inv_21",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Combiner 21",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              }
+            ],
+            "children": []
+          },
+          {
+            "node_id": "plant_4:inv_22",
+            "node_type": "inverter",
+            "name": "Inverter 22",
+            "parent_node_id": "plant_4:root",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Inverter 22",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "manufacturer",
+                "value": "SMA",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              },
+              {
+                "field": "model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "quantity",
+                "value": 1,
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "inverter_model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              }
+            ],
+            "children": [
+              "plant_4:combiner_22"
+            ]
+          },
+          {
+            "node_id": "plant_4:combiner_22",
+            "node_type": "combiner",
+            "name": "Combiner 22",
+            "parent_node_id": "plant_4:inv_22",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Combiner 22",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              }
+            ],
+            "children": []
+          },
+          {
+            "node_id": "plant_4:inv_23",
+            "node_type": "inverter",
+            "name": "Inverter 23",
+            "parent_node_id": "plant_4:root",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Inverter 23",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "manufacturer",
+                "value": "SMA",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              },
+              {
+                "field": "model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "quantity",
+                "value": 1,
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "inverter_model",
+                "value": "SC2500-EV-US",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              }
+            ],
+            "children": [
+              "plant_4:combiner_23"
+            ]
+          },
+          {
+            "node_id": "plant_4:combiner_23",
+            "node_type": "combiner",
+            "name": "Combiner 23",
+            "parent_node_id": "plant_4:inv_23",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Combiner 23",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              }
+            ],
+            "children": []
+          },
+          {
+            "node_id": "plant_4:inv_24",
+            "node_type": "inverter",
+            "name": "INVERTER 2.52",
+            "parent_node_id": "plant_4:root",
+            "attributes": [
+              {
+                "field": "PlatformName",
+                "value": "INVERTER 2.52",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              }
+            ],
+            "children": [
+              "plant_4:combiner_24"
+            ]
+          },
+          {
+            "node_id": "plant_4:combiner_24",
+            "node_type": "combiner",
+            "name": "Combiner 24",
+            "parent_node_id": "plant_4:inv_24",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Combiner 24",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": []
+              }
+            ],
+            "children": []
+          },
+          {
+            "node_id": "plant_4:meter_1",
+            "node_type": "meter",
+            "name": "METER SOCKET",
+            "parent_node_id": "plant_4:root",
+            "attributes": [
+              {
+                "field": "PlatformName",
+                "value": "METER SOCKET",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": [
+                  {
+                    "file_id": "f4",
+                    "page": null,
+                    "source_type": "text",
+                    "snippet": "METER SOCKET",
+                    "bbox": null
+                  }
+                ]
+              }
+            ],
+            "children": []
+          },
+          {
+            "node_id": "plant_4:meter_2",
+            "node_type": "meter",
+            "name": "METER SOCKET",
+            "parent_node_id": "plant_4:root",
+            "attributes": [
+              {
+                "field": "PlatformName",
+                "value": "METER SOCKET",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              }
+            ],
+            "children": []
+          },
+          {
+            "node_id": "plant_4:meter_3",
+            "node_type": "meter",
+            "name": "METER SOCKET",
+            "parent_node_id": "plant_4:root",
+            "attributes": [
+              {
+                "field": "PlatformName",
+                "value": "METER SOCKET",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              }
+            ],
+            "children": []
+          },
+          {
+            "node_id": "plant_4:tx_1",
+            "node_type": "transformer",
+            "name": "SUBSTATION",
+            "parent_node_id": "plant_4:root",
+            "attributes": [
+              {
+                "field": "PlatformName",
+                "value": "SUBSTATION",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": [
+                  {
+                    "file_id": "f4",
+                    "page": null,
+                    "source_type": "text",
+                    "snippet": "TRANSFORMER LOW",
+                    "bbox": null
+                  }
+                ]
+              }
+            ],
+            "children": []
+          },
+          {
+            "node_id": "plant_4:combiner_real_1",
+            "node_type": "combiner",
+            "name": "COMBINER BOX",
+            "parent_node_id": "plant_4:root",
+            "attributes": [
+              {
+                "field": "PlatformName",
+                "value": "COMBINER BOX",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": [
+                  {
+                    "file_id": "f4",
+                    "page": null,
+                    "source_type": "text",
+                    "snippet": "COMBINER BOX",
+                    "bbox": null
+                  }
+                ]
+              }
+            ],
+            "children": []
+          },
+          {
+            "node_id": "plant_4:tracker_1",
+            "node_type": "tracker",
+            "name": "TRACKER ARRAY",
+            "parent_node_id": "plant_4:root",
+            "attributes": [
+              {
+                "field": "PlatformName",
+                "value": "TRACKER ARRAY",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": [
+                  {
+                    "file_id": "f4",
+                    "page": null,
+                    "source_type": "text",
+                    "snippet": "TRACKER ROW",
+                    "bbox": null
+                  }
+                ]
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_5",
+        "device_tree": [
+          {
+            "node_id": "plant_5:root",
+            "node_type": "plant",
+            "name": "plant_5",
+            "parent_node_id": null,
+            "attributes": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_6",
+        "device_tree": [
+          {
+            "node_id": "plant_6:root",
+            "node_type": "plant",
+            "name": "plant_6",
+            "parent_node_id": null,
+            "attributes": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_7",
+        "device_tree": [
+          {
+            "node_id": "plant_7:root",
+            "node_type": "plant",
+            "name": "Introduction",
+            "parent_node_id": null,
+            "attributes": [],
+            "children": [
+              "plant_7:ws_1",
+              "plant_7:ws_2",
+              "plant_7:ws_3"
+            ]
+          },
+          {
+            "node_id": "plant_7:ws_1",
+            "node_type": "weather_station",
+            "name": "WEATHER STATION WEATHER STATION",
+            "parent_node_id": "plant_7:root",
+            "attributes": [
+              {
+                "field": "PlatformName",
+                "value": "WEATHER STATION WEATHER STATION",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": [
+                  {
+                    "file_id": "f7",
+                    "page": null,
+                    "source_type": "text",
+                    "snippet": "WEATHER STATION WEATHER STATION",
+                    "bbox": null
+                  }
+                ]
+              }
+            ],
+            "children": []
+          },
+          {
+            "node_id": "plant_7:ws_2",
+            "node_type": "weather_station",
+            "name": "Cell Temp Sensor",
+            "parent_node_id": "plant_7:root",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Cell Temp Sensor",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "sensor_type",
+                "value": "Temperature",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              }
+            ],
+            "children": []
+          },
+          {
+            "node_id": "plant_7:ws_3",
+            "node_type": "weather_station",
+            "name": "Pyranometer",
+            "parent_node_id": "plant_7:root",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Pyranometer",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "sensor_type",
+                "value": "Irradiance",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_8",
+        "device_tree": [
+          {
+            "node_id": "plant_8:root",
+            "node_type": "plant",
+            "name": "Anemometer",
+            "parent_node_id": null,
+            "attributes": [],
+            "children": [
+              "plant_8:ws_1",
+              "plant_8:ws_2"
+            ]
+          },
+          {
+            "node_id": "plant_8:ws_1",
+            "node_type": "weather_station",
+            "name": "WEATHER STATION IS",
+            "parent_node_id": "plant_8:root",
+            "attributes": [
+              {
+                "field": "PlatformName",
+                "value": "WEATHER STATION IS",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.7,
+                "evidence": [
+                  {
+                    "file_id": "f8",
+                    "page": null,
+                    "source_type": "text",
+                    "snippet": "WEATHER STATION CAN",
+                    "bbox": null
+                  }
+                ]
+              }
+            ],
+            "children": []
+          },
+          {
+            "node_id": "plant_8:ws_2",
+            "node_type": "weather_station",
+            "name": "Pyranometer",
+            "parent_node_id": "plant_8:root",
+            "attributes": [
+              {
+                "field": "name",
+                "value": "Pyranometer",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              },
+              {
+                "field": "sensor_type",
+                "value": "Irradiance",
+                "unit": null,
+                "normalized_value": null,
+                "confidence": 0.9,
+                "evidence": []
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_9",
+        "device_tree": [
+          {
+            "node_id": "plant_9:root",
+            "node_type": "plant",
+            "name": "plant_9",
+            "parent_node_id": null,
+            "attributes": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_10",
+        "device_tree": [
+          {
+            "node_id": "plant_10:root",
+            "node_type": "plant",
+            "name": "plant_10",
+            "parent_node_id": null,
+            "attributes": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_11",
+        "device_tree": [
+          {
+            "node_id": "plant_11:root",
+            "node_type": "plant",
+            "name": "plant_11",
+            "parent_node_id": null,
+            "attributes": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_12",
+        "device_tree": [
+          {
+            "node_id": "plant_12:root",
+            "node_type": "plant",
+            "name": "plant_12",
+            "parent_node_id": null,
+            "attributes": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_13",
+        "device_tree": [
+          {
+            "node_id": "plant_13:root",
+            "node_type": "plant",
+            "name": "plant_13",
+            "parent_node_id": null,
+            "attributes": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_14",
+        "device_tree": [
+          {
+            "node_id": "plant_14:root",
+            "node_type": "plant",
+            "name": "plant_14",
+            "parent_node_id": null,
+            "attributes": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_15",
+        "device_tree": [
+          {
+            "node_id": "plant_15:root",
+            "node_type": "plant",
+            "name": "plant_15",
+            "parent_node_id": null,
+            "attributes": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_16",
+        "device_tree": [
+          {
+            "node_id": "plant_16:root",
+            "node_type": "plant",
+            "name": "plant_16",
+            "parent_node_id": null,
+            "attributes": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_17",
+        "device_tree": [
+          {
+            "node_id": "plant_17:root",
+            "node_type": "plant",
+            "name": "plant_17",
+            "parent_node_id": null,
+            "attributes": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "plant_id": "plant_18",
+        "device_tree": [
+          {
+            "node_id": "plant_18:root",
+            "node_type": "plant",
+            "name": "plant_18",
+            "parent_node_id": null,
+            "attributes": [],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "signals": {
+    "summary": []
+  },
+  "quality": {
+    "missing": [
+      {
+        "scope": "plant",
+        "plant_id": "plant_0",
+        "node_id": null,
+        "field": "plant_name",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide the plant name.",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_0",
+        "node_id": null,
+        "field": "dc_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide DC capacity (kW) for plant plant_0",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_0",
+        "node_id": null,
+        "field": "ac_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide AC capacity (kW) for plant plant_0",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_0",
+        "node_id": null,
+        "field": "module_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_model for plant plant_0",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_0",
+        "node_id": null,
+        "field": "module_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_count for plant plant_0",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_0",
+        "node_id": null,
+        "field": "inverter_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_model for plant plant_0",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_0",
+        "node_id": null,
+        "field": "inverter_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_count for plant plant_0",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_1",
+        "node_id": null,
+        "field": "plant_name",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide the plant name.",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_1",
+        "node_id": null,
+        "field": "dc_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide DC capacity (kW) for plant plant_1",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_1",
+        "node_id": null,
+        "field": "ac_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide AC capacity (kW) for plant plant_1",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_1",
+        "node_id": null,
+        "field": "module_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_model for plant plant_1",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_1",
+        "node_id": null,
+        "field": "module_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_count for plant plant_1",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_1",
+        "node_id": null,
+        "field": "inverter_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_model for plant plant_1",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_1",
+        "node_id": null,
+        "field": "inverter_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_count for plant plant_1",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_2",
+        "node_id": null,
+        "field": "plant_name",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide the plant name.",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_2",
+        "node_id": null,
+        "field": "dc_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide DC capacity (kW) for plant plant_2",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_2",
+        "node_id": null,
+        "field": "ac_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide AC capacity (kW) for plant plant_2",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_2",
+        "node_id": null,
+        "field": "module_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_model for plant plant_2",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_2",
+        "node_id": null,
+        "field": "module_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_count for plant plant_2",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_2",
+        "node_id": null,
+        "field": "inverter_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_model for plant plant_2",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_2",
+        "node_id": null,
+        "field": "inverter_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_count for plant plant_2",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_3",
+        "node_id": null,
+        "field": "plant_name",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide the plant name.",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_3",
+        "node_id": null,
+        "field": "dc_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide DC capacity (kW) for plant plant_3",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_3",
+        "node_id": null,
+        "field": "ac_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide AC capacity (kW) for plant plant_3",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_3",
+        "node_id": null,
+        "field": "module_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_model for plant plant_3",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_3",
+        "node_id": null,
+        "field": "module_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_count for plant plant_3",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_3",
+        "node_id": null,
+        "field": "inverter_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_model for plant plant_3",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_3",
+        "node_id": null,
+        "field": "inverter_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_count for plant plant_3",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_4",
+        "node_id": null,
+        "field": "inverter_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_model for plant JACOB GILMORE AND",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_4",
+        "node_id": null,
+        "field": "inverter_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_count for plant JACOB GILMORE AND",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_5",
+        "node_id": null,
+        "field": "plant_name",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide the plant name.",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_5",
+        "node_id": null,
+        "field": "dc_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide DC capacity (kW) for plant plant_5",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_5",
+        "node_id": null,
+        "field": "ac_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide AC capacity (kW) for plant plant_5",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_5",
+        "node_id": null,
+        "field": "module_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_model for plant plant_5",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_5",
+        "node_id": null,
+        "field": "module_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_count for plant plant_5",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_5",
+        "node_id": null,
+        "field": "inverter_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_model for plant plant_5",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_5",
+        "node_id": null,
+        "field": "inverter_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_count for plant plant_5",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_6",
+        "node_id": null,
+        "field": "plant_name",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide the plant name.",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_6",
+        "node_id": null,
+        "field": "dc_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide DC capacity (kW) for plant plant_6",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_6",
+        "node_id": null,
+        "field": "ac_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide AC capacity (kW) for plant plant_6",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_6",
+        "node_id": null,
+        "field": "module_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_model for plant plant_6",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_6",
+        "node_id": null,
+        "field": "module_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_count for plant plant_6",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_6",
+        "node_id": null,
+        "field": "inverter_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_model for plant plant_6",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_6",
+        "node_id": null,
+        "field": "inverter_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_count for plant plant_6",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_7",
+        "node_id": null,
+        "field": "dc_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide DC capacity (kW) for plant Introduction",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_7",
+        "node_id": null,
+        "field": "ac_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide AC capacity (kW) for plant Introduction",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_7",
+        "node_id": null,
+        "field": "inverter_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_model for plant Introduction",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_7",
+        "node_id": null,
+        "field": "inverter_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_count for plant Introduction",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_8",
+        "node_id": null,
+        "field": "dc_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide DC capacity (kW) for plant Anemometer",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_8",
+        "node_id": null,
+        "field": "ac_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide AC capacity (kW) for plant Anemometer",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_8",
+        "node_id": null,
+        "field": "module_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_model for plant Anemometer",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_8",
+        "node_id": null,
+        "field": "inverter_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_model for plant Anemometer",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_8",
+        "node_id": null,
+        "field": "inverter_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_count for plant Anemometer",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_9",
+        "node_id": null,
+        "field": "plant_name",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide the plant name.",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_9",
+        "node_id": null,
+        "field": "dc_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide DC capacity (kW) for plant plant_9",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_9",
+        "node_id": null,
+        "field": "ac_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide AC capacity (kW) for plant plant_9",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_9",
+        "node_id": null,
+        "field": "module_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_model for plant plant_9",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_9",
+        "node_id": null,
+        "field": "module_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_count for plant plant_9",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_9",
+        "node_id": null,
+        "field": "inverter_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_model for plant plant_9",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_9",
+        "node_id": null,
+        "field": "inverter_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_count for plant plant_9",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_10",
+        "node_id": null,
+        "field": "plant_name",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide the plant name.",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_10",
+        "node_id": null,
+        "field": "dc_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide DC capacity (kW) for plant plant_10",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_10",
+        "node_id": null,
+        "field": "ac_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide AC capacity (kW) for plant plant_10",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_10",
+        "node_id": null,
+        "field": "module_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_model for plant plant_10",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_10",
+        "node_id": null,
+        "field": "module_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_count for plant plant_10",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_10",
+        "node_id": null,
+        "field": "inverter_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_model for plant plant_10",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_10",
+        "node_id": null,
+        "field": "inverter_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_count for plant plant_10",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_11",
+        "node_id": null,
+        "field": "plant_name",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide the plant name.",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_11",
+        "node_id": null,
+        "field": "dc_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide DC capacity (kW) for plant plant_11",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_11",
+        "node_id": null,
+        "field": "ac_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide AC capacity (kW) for plant plant_11",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_11",
+        "node_id": null,
+        "field": "module_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_model for plant plant_11",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_11",
+        "node_id": null,
+        "field": "module_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_count for plant plant_11",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_11",
+        "node_id": null,
+        "field": "inverter_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_model for plant plant_11",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_11",
+        "node_id": null,
+        "field": "inverter_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_count for plant plant_11",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_12",
+        "node_id": null,
+        "field": "plant_name",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide the plant name.",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_12",
+        "node_id": null,
+        "field": "dc_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide DC capacity (kW) for plant plant_12",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_12",
+        "node_id": null,
+        "field": "ac_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide AC capacity (kW) for plant plant_12",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_12",
+        "node_id": null,
+        "field": "module_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_model for plant plant_12",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_12",
+        "node_id": null,
+        "field": "module_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_count for plant plant_12",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_12",
+        "node_id": null,
+        "field": "inverter_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_model for plant plant_12",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_12",
+        "node_id": null,
+        "field": "inverter_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_count for plant plant_12",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_13",
+        "node_id": null,
+        "field": "plant_name",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide the plant name.",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_13",
+        "node_id": null,
+        "field": "dc_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide DC capacity (kW) for plant plant_13",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_13",
+        "node_id": null,
+        "field": "ac_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide AC capacity (kW) for plant plant_13",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_13",
+        "node_id": null,
+        "field": "module_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_model for plant plant_13",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_13",
+        "node_id": null,
+        "field": "module_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_count for plant plant_13",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_13",
+        "node_id": null,
+        "field": "inverter_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_model for plant plant_13",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_13",
+        "node_id": null,
+        "field": "inverter_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_count for plant plant_13",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_14",
+        "node_id": null,
+        "field": "plant_name",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide the plant name.",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_14",
+        "node_id": null,
+        "field": "dc_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide DC capacity (kW) for plant plant_14",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_14",
+        "node_id": null,
+        "field": "ac_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide AC capacity (kW) for plant plant_14",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_14",
+        "node_id": null,
+        "field": "module_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_model for plant plant_14",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_14",
+        "node_id": null,
+        "field": "module_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_count for plant plant_14",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_14",
+        "node_id": null,
+        "field": "inverter_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_model for plant plant_14",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_14",
+        "node_id": null,
+        "field": "inverter_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_count for plant plant_14",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_15",
+        "node_id": null,
+        "field": "plant_name",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide the plant name.",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_15",
+        "node_id": null,
+        "field": "dc_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide DC capacity (kW) for plant plant_15",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_15",
+        "node_id": null,
+        "field": "ac_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide AC capacity (kW) for plant plant_15",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_15",
+        "node_id": null,
+        "field": "module_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_model for plant plant_15",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_15",
+        "node_id": null,
+        "field": "module_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_count for plant plant_15",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_15",
+        "node_id": null,
+        "field": "inverter_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_model for plant plant_15",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_15",
+        "node_id": null,
+        "field": "inverter_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_count for plant plant_15",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_16",
+        "node_id": null,
+        "field": "plant_name",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide the plant name.",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_16",
+        "node_id": null,
+        "field": "dc_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide DC capacity (kW) for plant plant_16",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_16",
+        "node_id": null,
+        "field": "ac_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide AC capacity (kW) for plant plant_16",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_16",
+        "node_id": null,
+        "field": "module_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_model for plant plant_16",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_16",
+        "node_id": null,
+        "field": "module_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_count for plant plant_16",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_16",
+        "node_id": null,
+        "field": "inverter_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_model for plant plant_16",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_16",
+        "node_id": null,
+        "field": "inverter_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_count for plant plant_16",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_17",
+        "node_id": null,
+        "field": "plant_name",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide the plant name.",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_17",
+        "node_id": null,
+        "field": "dc_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide DC capacity (kW) for plant plant_17",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_17",
+        "node_id": null,
+        "field": "ac_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide AC capacity (kW) for plant plant_17",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_17",
+        "node_id": null,
+        "field": "module_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_model for plant plant_17",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_17",
+        "node_id": null,
+        "field": "module_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_count for plant plant_17",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_17",
+        "node_id": null,
+        "field": "inverter_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_model for plant plant_17",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_17",
+        "node_id": null,
+        "field": "inverter_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_count for plant plant_17",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_18",
+        "node_id": null,
+        "field": "plant_name",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide the plant name.",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_18",
+        "node_id": null,
+        "field": "dc_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide DC capacity (kW) for plant plant_18",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_18",
+        "node_id": null,
+        "field": "ac_kw",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide AC capacity (kW) for plant plant_18",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_18",
+        "node_id": null,
+        "field": "module_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_model for plant plant_18",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_18",
+        "node_id": null,
+        "field": "module_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide module_count for plant plant_18",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_18",
+        "node_id": null,
+        "field": "inverter_model",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_model for plant plant_18",
+        "priority": "high"
+      },
+      {
+        "scope": "plant",
+        "plant_id": "plant_18",
+        "node_id": null,
+        "field": "inverter_count",
+        "required_by": "onboarding_v1",
+        "reason": "not_found",
+        "question_for_user": "Provide inverter_count for plant plant_18",
+        "priority": "high"
+      }
+    ],
+    "conflicts": [],
+    "scores": {
+      "overall_confidence": 0.8774999999999995,
+      "completeness": 0.1907894736842105,
+      "readability": 1.0
+    }
+  },
+  "debug": {
+    "timings_ms": {
+      "ingest": 0,
+      "ocr": 0,
+      "parse": 0,
+      "normalize": 0,
+      "assemble_output": 0
+    },
+    "warnings": [],
+    "errors": []
+  }
+}

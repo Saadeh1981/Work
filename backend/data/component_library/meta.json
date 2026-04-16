@@ -1,0 +1,15 @@
+{
+  "sources": [
+    "pvlib.retrieve_sam: CECMod",
+    "pvlib.retrieve_sam: cecinverter",
+    "pvlib.retrieve_sam: sandiainverter",
+    "pvlib.retrieve_sam: sandiamod"
+  ],
+  "row_counts": {
+    "cec_modules": 25,
+    "cec_inverters": 16,
+    "sandia_inverters": 16,
+    "sandia_modules": 42
+  },
+  "generated_at_utc": "2026-02-11T01:13:50.759738+00:00"
+}

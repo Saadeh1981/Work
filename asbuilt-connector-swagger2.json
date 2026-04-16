@@ -1,0 +1,27 @@
+{
+  "swagger": "2.0",
+  "info": { "title": "AI Onboarding Extraction API", "version": "1.0" },
+  "host": "ai-onboarding-api-90ee1026.azurewebsites.net",
+  "basePath": "/",
+  "schemes": ["https"],
+  "consumes": ["multipart/form-data"],
+  "produces": ["application/json"],
+  "securityDefinitions": {
+    "apiKeyHeader": { "type": "apiKey", "name": "x-api-key", "in": "header" }
+  },
+  "security": [{ "apiKeyHeader": [] }],
+  "paths": {
+    "/extract/asbuilt": {
+      "post": {
+        "summary": "Extract from as-built PDF",
+        "operationId": "ExtractAsbuilt",
+        "consumes": ["multipart/form-data"],
+        "parameters": [
+          { "name": "file", "in": "formData", "required": true, "type": "file", "description": "PDF file" },
+          { "name": "first_pages", "in": "query", "required": false, "type": "integer", "format": "int32" }
+        ],
+        "responses": { "200": { "description": "OK" } }
+      }
+    }
+  }
+}

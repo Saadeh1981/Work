@@ -1,0 +1,297 @@
+# backend/app.py
+from fastapi import FastAPI, UploadFile, File, HTTPException, Depends
+from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
+from dotenv import load_dotenv
+import logging, os
+from backend.services.rules_engine import extract_from_yaml, find_rules_file, load_rules_file
+import traceback
+from backend.security.auth import require_api_key_except_public
+
+app = FastAPI(
+    dependencies=[Depends(require_api_key_except_public)]
+)
+
+app = FastAPI(title="AI Onboarding API")  # <-- define app FIRST
+
+def _mask(v: str | None, keep: int = 4) -> str | None:
+    if not v:
+        return None
+    v = str(v)
+    return "*" * max(0, len(v) - keep) + v[-keep:]
+
+
+
+async def _run_read_ocr(file: UploadFile, first_pages: int = 8):
+    """
+    Uses the exact same OCR pipeline as /extract/read-test and returns the DI result dict.
+    """
+    ct = file.content_type or "application/pdf"
+    if ct not in ("application/pdf", "image/png", "image/jpeg"):
+        raise HTTPException(status_code=400, detail=f"Unsupported content type: {ct}")
+
+    raw = await file.read()
+
+    # Call the same resilient OCR helper you already defined in this file
+    result = await _analyze_with_retry(raw, ct, start_pages=first_pages)
+
+    if isinstance(result, dict) and result.get("error"):
+        raise HTTPException(status_code=502, detail=result)
+
+    return result
+
+def _flatten_read_text(result: dict) -> str:
+    """
+    Return a flat string of text from AnalyzeResult (handles both 'content' and pages/lines fallback).
+    """
+    ar = (result or {}).get("analyzeResult") or {}
+    flat = ar.get("content")
+    if flat:
+        return flat
+    lines = []
+    for p in ar.get("pages", []) or []:
+        for ln in p.get("lines", []) or []:
+            t = ln.get("content")
+            if t:
+                lines.append(t)
+    return "\n".join(lines)
+
+# ---- env / logging ----------------------------------------------------------
+load_dotenv()
+
+APP_NAME = os.getenv("APP_NAME", "ai-onboarding")
+APP_ENV = os.getenv("APP_ENV", "local")
+APP_VERSION = os.getenv("APP_VERSION", "0.0.1")
+
+logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
+logger = logging.getLogger(APP_NAME)
+
+# ---- FastAPI app ------------------------------------------------------------
+app = FastAPI(title="AI Onboarding (MVP Skeleton)", version=APP_VERSION)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+@app.get("/health", tags=["ops"])
+def health():
+    return {"status": "ok"}
+
+@app.get("/env", tags=["ops"])
+def env_view():
+    return {
+        "DOCINT_ENDPOINT": os.getenv("DOCINT_ENDPOINT"),
+        "DOCINT_KEY": _mask(os.getenv("DOCINT_KEY")),
+        "DOCINT_PREFER": os.getenv("DOCINT_PREFER", "auto"),
+        "RULES_PATH": os.getenv("RULES_PATH"),
+    }
+
+# ---- ops endpoints ----------------------------------------------------------
+class Healthz(BaseModel):
+    status: str
+    name: str
+    env: str
+    version: str
+
+@app.get("/healthz", response_model=Healthz, tags=["ops"])
+async def healthz():
+    return Healthz(status="ok", name=APP_NAME, env=APP_ENV, version=APP_VERSION)
+
+@app.get("/version", tags=["ops"])
+async def version():
+    return {"version": APP_VERSION}
+
+@app.get("/ops/env-check", tags=["ops"])
+async def env_check():
+    return {
+        "have_endpoint": bool(os.getenv("DOCINT_ENDPOINT")),
+        "have_key": bool(os.getenv("DOCINT_KEY")),
+    }
+
+# ---- placeholder stub -------------------------------------------------------
+@app.get("/extract/stub", tags=["extract"])
+async def extract_stub():
+    return {
+        "message": "This is a stub for /extract. Wire Graph + Doc Intelligence next.",
+        "next_steps": [
+            "Implement services/graph_client.py (OBO download/upload).",
+            "Implement services/docint_client.py (Azure Document Intelligence).",
+            "Add POST /extract to accept a file reference or upload."
+        ]
+    }
+
+# ---- services / helpers -----------------------------------------------------
+from backend.services.pdf_utils import slice_first_pages, rasterize_pdf_to_jpegs
+from backend.services.docint_client import DocumentIntelligenceClient
+from backend.services.extractors import parse_asbuilt
+
+MAX_INLINE_BYTES = 15 * 1024 * 1024  # ~15 MB guard
+
+def _is_size_error(err: dict) -> bool:
+    """Detect Azure 'payload too large' errors from our client payload."""
+    return isinstance(err, dict) and err.get("error") and (
+        err.get("error_kind") == "size_limit"  # set by docint_client.py
+        or "InvalidContentLength" in str(err.get("code") or "")
+        or "too large" in str(err.get("message") or "").lower()
+        or "too large" in str(err.get("text") or "").lower()
+    )
+
+async def _analyze_with_retry(raw: bytes, content_type: str, start_pages: int = 8):
+    """
+    Send to Azure; if Azure says 'too large', try fewer pages and then rasterize to JPEGs.
+    Returns either the normal DI response or an error dict from the client.
+    """
+    di = DocumentIntelligenceClient()
+
+    # Non-PDFs (PNG/JPG): just call once.
+    if content_type != "application/pdf":
+        return await di.analyze_read(raw, content_type=content_type)
+
+    # 1) Try as PDF, slicing first N pages; halve on size errors.
+    pages = max(1, start_pages)
+    pdf_bytes = raw
+    if len(pdf_bytes) > MAX_INLINE_BYTES:
+        pdf_bytes = slice_first_pages(pdf_bytes, max_pages=pages)
+
+    while True:
+        res = await di.analyze_read(pdf_bytes, content_type="application/pdf")
+        if isinstance(res, dict) and res.get("error"):
+            if _is_size_error(res) and pages > 1:
+                pages = max(1, pages // 2)
+                pdf_bytes = slice_first_pages(raw, max_pages=pages)
+                continue
+
+            # 2) Still too big (even at 1 page) → rasterize first few pages to JPEG and analyze each page
+            if _is_size_error(res):
+                # keep images small: modest DPI, limited pages
+                imgs = rasterize_pdf_to_jpegs(raw, max_pages=min(start_pages, 4), dpi=120)
+                if not imgs:
+                    return {"error": True, "stage": "rasterize", "text": "No images produced from PDF"}
+                combined = []
+                for img in imgs:
+                    r = await di.analyze_read(img, content_type="image/jpeg")
+                    if isinstance(r, dict) and r.get("error"):
+                        return r  # bubble up the image error
+                    ar = r.get("analyzeResult", {}) or {}
+                    combined.append(ar.get("content") or "")
+                return {"status": "succeeded", "analyzeResult": {"content": "\n\n".join([c for c in combined if c])}}
+
+            # other error → return as-is
+            return res
+
+        # success
+        return res
+        
+# --- helper that contains the same body the read-test uses to call DI “Read” ---
+from fastapi import UploadFile, File, HTTPException
+
+async def _run_read_ocr(file: UploadFile, first_pages: int = 8):
+    """
+    Uses the exact same OCR pipeline as /extract/read-test and returns the DI result dict.
+    """
+    ct = file.content_type or "application/pdf"
+    if ct not in ("application/pdf", "image/png", "image/jpeg"):
+        raise HTTPException(status_code=400, detail=f"Unsupported content type: {ct}")
+
+    raw = await file.read()
+
+    # Use the resilient helper you already defined in this file
+    result = await _analyze_with_retry(raw, ct, start_pages=first_pages)
+
+    if isinstance(result, dict) and result.get("error"):
+        raise HTTPException(status_code=502, detail=result)
+
+    return result
+
+
+# ---- endpoints --------------------------------------------------------------
+@app.post("/extract/read-test", tags=["extract"])
+async def read_test(file: UploadFile = File(...), first_pages: int = 8):
+    result = await _run_read_ocr(file, first_pages=first_pages)
+
+    ar = (result or {}).get("analyzeResult", {}) or {}
+    page_count = len(ar.get("pages", []) or [])
+    sample_lines = []
+    for p in (ar.get("pages") or [])[:2]:
+        for ln in (p.get("lines") or [])[:5]:
+            t = ln.get("content")
+            if t:
+                sample_lines.append(t)
+
+    return {"status": "succeeded", "pageCount": page_count, "sampleLines": sample_lines}
+
+
+@app.post("/extract/asbuilt", tags=["extract"])
+async def extract_asbuilt(file: UploadFile = File(...), first_pages: int = 8):
+    ct = file.content_type or "application/pdf"
+    if ct not in ("application/pdf", "image/png", "image/jpeg"):
+        raise HTTPException(status_code=400, detail=f"Unsupported content type: {ct}")
+
+    raw = await file.read()
+    result = await _analyze_with_retry(raw, ct, start_pages=first_pages)
+    if isinstance(result, dict) and result.get("error"):
+        raise HTTPException(status_code=502, detail=result)
+
+    parsed = parse_asbuilt(result)
+    return parsed
+
+
+
+@app.post("/extract/asbuilt-simple")
+async def asbuilt_simple(file: UploadFile, first_pages: int = 3):
+    try:
+        # 1) OCR using the EXACT same pipeline as /extract/read-test
+        result = await _run_read_ocr(file, first_pages=first_pages)
+
+        # 2) Flatten text from DI result
+        ar = (result or {}).get("analyzeResult") or {}
+        flat_text = ar.get("content")
+        if not flat_text:
+            # fallback: rebuild from pages -> lines
+            pages = ar.get("pages") or []
+            lines = []
+            for p in pages:
+                for ln in p.get("lines", []):
+                    t = ln.get("content")
+                    if t:
+                        lines.append(t)
+            flat_text = "\n".join(lines)
+
+        if not flat_text:
+            raise HTTPException(status_code=502, detail={
+                "error": "ocr_empty",
+                "hint": "DI returned no content; try increasing first_pages or use a different file"
+            })
+
+        # 3) Load YAML rules
+        rules_path = find_rules_file()
+        rules = load_rules_file(rules_path)
+
+        # 4) Run rules
+        data = extract_from_yaml(flat_text, rules)
+        return data
+
+    except HTTPException:
+        raise
+    except Exception as e:
+        logging.exception("asbuilt-simple crashed")
+        # Return the first few KB of the Azure payload if you have it in scope
+        # logging.error("AZURE_RESULT: %s", json.dumps(azure_result)[:4000] if 'azure_result' in locals() else "<no result>")
+        raise HTTPException(
+            status_code=500,
+            detail={
+                "error": str(e),
+                "trace": traceback.format_exc().splitlines()[-15:],
+            },
+        )
+
+@app.get("/healthz")
+def healthz():
+    return {"ok": True}
+
+@app.get("/version")
+def version():
+    return {"version": "0.0.1"}
